@@ -410,7 +410,17 @@ guiTypes = {
 					name = "game_setup_bar3"
 					spriteType = "GFX_tiles_dark_area_cut_8"
 				}
-			}	
+			}
+			containerWindowType = {
+				name = "game_setup_bar26_box"
+				size = { width = 1103 height = 36 }
+				position = { x = 42 y = 1000 }
+
+				background = {
+					name = "game_setup_bar3"
+					spriteType = "GFX_tiles_dark_area_cut_8"
+				}
+			}
 			# Size
 			containerWindowType = {
 				id = "pick_size"
@@ -1246,14 +1256,79 @@ guiTypes = {
 					}
 					
 					navUp = "num_fallen_empires_slider"
-					navDown = "aggressiveness_spinner"
+					navDown = "crisis_type_spinner"
+				}
+			}
+
+			# Crisis Types
+			containerWindowType = {
+				name = "crisis_type"
+				position = { x = 72 y = 405 }
+
+				instantTextBoxType = {
+					name = "crisis_type_label"
+					position = { x = -20 y = 0 }
+					font = "malgun_goth_24"
+					maxWidth = 204
+					maxHeight = 52
+					orientation = "UPPER_LEFT"
+					text = "CRISIS_TYPE_LABEL"
+					pdx_tooltip = "CRISIS_TYPE_LABEL_TOOLTIP"
+					tooltip_mode_enabled = yes
+				}
+
+				instantTextBoxType={
+					name = "value"
+					font = "malgun_goth_24"
+					text = "CRISIS_TYPE_ANY"
+					position = { x = 790 y = 0 }
+					maxWidth = 220
+					maxHeight = 35
+					fixedSize = yes
+					format = center
+				}
+
+				spinnerType = {
+					id = "crisis_type_spinner"
+					name = "crisis_type_spinner"
+					leftbutton = "spinner_upButton"
+					rightbutton = "spinner_downButton"
+					size = {x = 307 y = 30 }
+					position = {x= 747 y =0}
+					priority = 100
+					borderSize = {x =16 y = 16}
+					horizontal = 1
+					maxValue = 100
+					startValue = 0
+
+					guiButtonType = {
+						name = "spinner_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x=30 y =0}
+					}
+					guiButtonType = {
+						name = "spinner_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x=30 y =0}
+					}
+					
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"					
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+
+					navUp = "crises_slider"
+					navDown = "mid_game_slider"
 				}
 			}
 
 			### Mid Game Year
 			containerWindowType = {
 				name = "mid_game"
-				position = { x = 72 y = 405 }
+				position = { x = 72 y = 445 }
 
 				instantTextBoxType = {
 					name = "mid_game_label"
@@ -1338,7 +1413,7 @@ guiTypes = {
 			### End Game Year
 			containerWindowType = {
 				name = "end_game"
-				position = { x = 72 y = 445 }
+				position = { x = 72 y = 485 }
 
 				instantTextBoxType = {
 					name = "end_game_label"
@@ -1423,7 +1498,7 @@ guiTypes = {
 			### Victory Year
 			containerWindowType = {
 				name = "victory"
-				position = { x = 72 y = 485 }
+				position = { x = 72 y = 525 }
 
 				instantTextBoxType = {
 					name = "victory_label"
@@ -1509,7 +1584,7 @@ guiTypes = {
 			containerWindowType = {
 				id = "difficulty"
 				name = "difficulty"
-				position = { x = 72 y = 525 }
+				position = { x = 72 y = 565 }
 
 				instantTextBoxType = {
 					name = "difficulty_label"
@@ -1574,7 +1649,7 @@ guiTypes = {
 			# Scaling Difficulty
 			containerWindowType = {
 				name = "scaling_difficulty"
-				position = { x = 72 y = 565 }
+				position = { x = 72 y = 605 }
 
 				instantTextBoxType = {
 					name = "scaling_difficulty"
@@ -1639,7 +1714,7 @@ guiTypes = {
 			# Aggressiveness
 			containerWindowType = {
 				name = "aggressiveness"
-				position = { x = 72 y = 605 }
+				position = { x = 72 y = 645 }
 
 				instantTextBoxType = {
 					name = "aggressiveness_label"
@@ -1704,7 +1779,7 @@ guiTypes = {
 			# Clustered Starts
 			containerWindowType = {
 				name = "clustered_starts"
-				position = { x = 72 y = 645 }
+				position = { x = 72 y = 685 }
 
 				instantTextBoxType = {
 					name = "clustered_starts_label"
@@ -1769,7 +1844,7 @@ guiTypes = {
 			# Advanced Empires Near Player
 			containerWindowType = {
 				name = "advanced_near_player"
-				position = { x = 72 y = 685 }
+				position = { x = 72 y = 725 }
 
 				instantTextBoxType = {
 					name = "advanced_near_player"
@@ -1834,7 +1909,7 @@ guiTypes = {
 			### Number of hyperlanes generated
 			containerWindowType = {
 				name = "hyperlanes"
-				position = { x = 72 y = 725 }
+				position = { x = 72 y = 765 }
 
 				instantTextBoxType = {
 					name = "pick_hyperlanes_label"
@@ -1919,7 +1994,7 @@ guiTypes = {
 			### Pregenerated Gateways
 			containerWindowType = {
 				name = "gateways"
-				position = { x = 72 y = 765 }
+				position = { x = 72 y = 805 }
 
 				instantTextBoxType = {
 					name = "pick_gateways_label"
@@ -2003,7 +2078,7 @@ guiTypes = {
 			### Number of natural wormhole pairs generated
 			containerWindowType = {
 				name = "wormholes"
-				position = { x = 72 y = 805 }
+				position = { x = 72 y = 845 }
 
 				instantTextBoxType = {
 					name = "pick_wormholes_label"
@@ -2086,7 +2161,7 @@ guiTypes = {
 			### Guaranteed Colonies
 			containerWindowType = {
 				name = "guaranteed_colonies"
-				position = { x = 72 y = 845 }
+				position = { x = 72 y = 885 }
 
 				instantTextBoxType = {
 					name = "guaranteed_colonies_label"
@@ -2170,7 +2245,7 @@ guiTypes = {
 			# Caravaneers
 			containerWindowType = {
 				name = "caravaneer"
-				position = { x = 72 y = 885 }
+				position = { x = 72 y = 925 }
 
 				instantTextBoxType = {
 					name = "caravaneers_label"
@@ -2234,7 +2309,7 @@ guiTypes = {
 			# Xeno Compatibility
 			containerWindowType = {
 				name = "xeno_compatibility"
-				position = { x = 72 y = 925 }
+				position = { x = 72 y = 965 }
 
 				instantTextBoxType = {
 					name = "xeno_compatibility_label"
@@ -2295,11 +2370,12 @@ guiTypes = {
 					navDown = "galaxy_caravaneers_down_button"
 				}
 			}
+			
 			# Ironman
 			containerWindowType = {
 				id = "ironman"
 				name = "ironman"
-				position = { x = 72 y = 995 }
+				position = { x = 72 y = 1035 }
 
 				iconType = {
 					name = "ironman_icon"

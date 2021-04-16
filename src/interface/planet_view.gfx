@@ -12,7 +12,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/horizontal_fade.dds"
 		borderSize = { x=5 y=5 }
 	}
-	
+
 	progressbarType = {
 		name = "GFX_planetview_health"
 		color = { 1.0 1.0 1.0 }
@@ -23,7 +23,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
 	}
-	
+
 	spriteType = {
 		name = "GFX_terraform_planet"
 		texturefile = "gfx/interface/planetview/terraform_planet.dds"
@@ -42,19 +42,19 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 			animationframes = { 1 2 3 }
 		}
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_inspect_planet_features"
 		texturefile = "gfx/interface/planetview/inspect_features.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 		noOfFrames = 3
 		animation = {
-			animationmaskfile = "gfx/interface/fleet_view/standard_button_mask.dds"
-			animationtexturefile = "gfx/interface/fleet_view/standard_button_texture.dds"
+			animationmaskfile = "gfx/interface/buttons/button_116_animated_mask.dds"
+			animationtexturefile = "gfx/interface/buttons/button_116_animated_texture.dds"
 			animationrotation = 180.0
 			animationlooping = yes
-			animationtime = 12.0
+			animationtime = 40.0
 			animationdelay = 0.0
 			animationblendmode = "overlay"       #add, multiply, overlay
 			animationtype = "scrolling"      #scrolling, rotating, pulsing
@@ -62,7 +62,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 			animationframes = { 1 2 3 }
 		}
-	}	
+		hitbox_margin = { x=11 y=11 }
+	}
 
 	corneredTileSpriteType = {
 		name = "GFX_interface_list_light"
@@ -92,10 +93,45 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
 
-	corneredTileSpriteType = {
-		name = "GFX_needs_code"
-		textureFile = "gfx/interface/pink_box.dds"
-		borderSize = { x=1 y=1 }
+	spriteType = {
+		name = "GFX_button_sort_reorder_planets"
+		texturefile = "gfx/interface/buttons/button_sort_reorder.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/buttons/button_sort_reorder.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+
+
+	spriteType = {
+		name = "GFX_button_sort_follow_list"
+		texturefile = "gfx/interface/buttons/button_sort_list.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_sort_mask.dds"
+			animationtexturefile = "gfx/interface/buttons/button_sort_list.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 12.0
+			animationdelay = 0.0
+			animationblendmode = "overlay"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
 	}
 
 	spriteType = {
@@ -209,17 +245,17 @@ spriteTypes = {
 		name = "GFX_empire_cohesion"
 		textureFile = "gfx/interface/planetview/empire_cohesion.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_species_growth_lock"
 		textureFile = "gfx/interface/planetview/growth_lock.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_building_build_speed"
 		textureFile = "gfx/interface/icons/modifiers/mod_planet_building_build_speed_mult.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_planet_bg_top"
 		textureFile = "gfx/interface/planetview/planet_view_top.dds"
@@ -229,13 +265,13 @@ spriteTypes = {
 		name = "GFX_colony_type"
 		textureFile = "gfx/interface/planetview/colony_type.dds"
 		noOfFrames = 29
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_planet_devastation"
 		textureFile = "gfx/interface/planetview/devastation.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_resettlement_arrows"
 		textureFile = "gfx/interface/planetview/resettlement_arrows.dds"
@@ -300,17 +336,17 @@ spriteTypes = {
 		name = "GFX_pop"
 		textureFile = "gfx/interface/icons/pop.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_pop_job"
 		textureFile = "gfx/interface/icons/pop_job.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_item_expand"
 		textureFile = "gfx/interface/icons/item_expand.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_item_collapse"
 		textureFile = "gfx/interface/icons/item_collapse.dds"
@@ -340,7 +376,7 @@ spriteTypes = {
 		size = { x = 76 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
-	
+
 	progressbartype = {
 		name = "GFX_decline_progressbar"
 		color = { 1.0 1.0 1.0 }
@@ -359,12 +395,12 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/progressbars/assembly_progressbar_empty.dds"
 		size = { x = 76 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
-	}	
+	}
 
 	progressbartype = {
 		name = "GFX_building_progressbar"
 		color = { 1.0 1.0 1.0 }
-		colortwo = { 1.0 1.0 1.0 }	
+		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/progressbars/queue_progressbar.dds"
 		textureFile2 = "gfx/interface/progressbars/queue_progressbar_empty.dds"
 		size = { x = 52 y = 10 }
@@ -374,17 +410,17 @@ spriteTypes = {
 	progressbartype = {
 		name = "GFX_blocker_progressbar"
 		color = { 1.0 1.0 1.0 }
-		colortwo = { 1.0 1.0 1.0 }	
+		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/progressbars/queue_progressbar.dds"
 		textureFile2 = "gfx/interface/progressbars/queue_progressbar_empty.dds"
 		size = { x = 169 y = 14 }
 		effectFile = "gfx/FX/progress_startend.lua"
-	}	
+	}
 
 	progressbartype = {
 		name = "GFX_queue_progressbar"
 		color = { 1.0 1.0 1.0 }
-		colortwo = { 1.0 1.0 1.0 }	
+		colortwo = { 1.0 1.0 1.0 }
 		textureFile1 = "gfx/interface/progressbars/queue_progressbar.dds"
 		textureFile2 = "gfx/interface/progressbars/queue_progressbar_empty.dds"
 		size = { x = 210 y = 14 }
@@ -440,7 +476,7 @@ spriteTypes = {
 		size = { x = 150 y = 11 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
-	
+
 	progressbartype = {
 		name = "GFX_queue_progressbar_200"
 		color = { 1.0 1.0 1.0 }
@@ -460,7 +496,7 @@ spriteTypes = {
 		size = { x = 192 y = 11 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
-	
+
 	progressbartype = {
 		name = "GFX_queue_progressbar_226"
 		color = { 1.0 1.0 1.0 }
@@ -475,7 +511,7 @@ spriteTypes = {
 		name = "GFX_planet_tab_icon"
 		textureFile = "gfx/interface/icons/planet.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_planetview_black_frame"
 		textureFile = "gfx/interface/planetview/planetview_black_frame.dds"
@@ -517,6 +553,16 @@ spriteTypes = {
 		textureFile1 = "gfx/interface/planetview/planetview_buildable_progress.dds"
 		textureFile2 = "gfx/interface/planetview/planetview_buildable_progress_empty.dds"
 		size = { x = 433 y = 12 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_colonization_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/planetview/planetview_buildable_progress.dds"
+		textureFile2 = "gfx/interface/planetview/planetview_buildable_progress_empty.dds"
+		size = { x = 225 y = 12 }
 		effectFile = "gfx/FX/progress_startend.lua"
 	}
 
@@ -605,21 +651,21 @@ spriteTypes = {
 		name = "GFX_deposit_unknown"
 		textureFile = "gfx/interface/icons/deposits/default.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_deposit_blocker_unknown"
 		textureFile = "gfx/interface/icons/deposits/default_blocker.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_building_ruined"
 		textureFile = "gfx/interface/icons/buildings/building_ruined.dds"
-	}		
-	
+	}
+
 	spriteType = {
 		name = "GFX_building_unknown"
 		textureFile = "gfx/interface/icons/buildings/default.dds"
-	}	
+	}
 
 	spriteType = {
 		name = "GFX_main_screen_bg"
@@ -833,16 +879,16 @@ spriteTypes = {
 		name = "GFX_planetary_features_blocker_num_icon"
 		textureFile = "gfx/interface/planetview/blocker_num_icon.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_planet_background_frame_rare"
 		textureFile = "gfx/interface/planetview/rare_frame.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_clear_blocker_button"
 		textureFile = "gfx/interface/planetview/clear_blocker_button.dds"
-	}	
+	}
 
 	spriteType = {
 		name = "GFX_city_frame"
@@ -868,7 +914,7 @@ spriteTypes = {
 		name = "GFX_hex_bg_trader"
 		textureFile = "gfx/interface/planetview/planet_view_hex_bg_trader.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_hex_bg_caravaneer"
 		textureFile = "gfx/interface/planetview/planet_view_hex_bg_caravaneer.dds"
@@ -878,17 +924,17 @@ spriteTypes = {
 		name = "GFX_hex_center_bg"
 		textureFile = "gfx/interface/planetview/planet_view_center_hex_bg.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_job_prio_increase"
 		textureFile = "gfx/interface/planetview/job_prio_increase.dds"
-	}	
+	}
 
 	spriteType = {
 		name = "GFX_job_prio_decrease"
 		textureFile = "gfx/interface/planetview/job_prio_decrease.dds"
-	}		
-	
+	}
+
 	spriteType = {
 		name = "GFX_line"
 		textureFile = "gfx/interface/planetview/line.dds"
@@ -898,7 +944,7 @@ spriteTypes = {
 		name = "GFX_line_center"
 		textureFile = "gfx/interface/planetview/line_center.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_line_center_short"
 		textureFile = "gfx/interface/planetview/line_center_short.dds"
@@ -928,7 +974,7 @@ spriteTypes = {
 		name = "GFX_line_long_caravaneer"
 		textureFile = "gfx/interface/planetview/line_long_caravaneer.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_disabled_building"
 		textureFile = "gfx/interface/icons/disabled_building.dds"
@@ -960,7 +1006,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 3
 	}
-	
+
 	spriteType = {
 		name = "GFX_planetview_trade_value"
 		textureFile = "gfx/interface/planetview/trade_value.dds"
@@ -993,49 +1039,49 @@ spriteTypes = {
 		borderSize = { x=330 y=296 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_tile_large_bg_plain"
 		textureFile = "gfx/interface/tiles/tile_large_bg_plain.dds"
 		borderSize = { x=330 y=296 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}	
-	
+	}
+
 	corneredTileSpriteType = {
 		name = "GFX_plain_bg_tile"
 		textureFile = "gfx/interface/tiles/plain_bg_tile.dds"
 		borderSize = { x=80 y=80 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_tile_large_bg_trader"
 		textureFile = "gfx/interface/tiles/tile_large_bg_trader.dds"
 		borderSize = { x=330 y=296 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_tile_large_bg_caravaneer"
 		textureFile = "gfx/interface/tiles/tile_large_bg_caravaneer.dds"
 		borderSize = { x=330 y=296 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_tile_large_bg_artist"
 		textureFile = "gfx/interface/tiles/tile_large_bg_artist.dds"
 		borderSize = { x=330 y=296 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
-	}	
-	
+	}
+
 	corneredTileSpriteType = {
 		name = "GFX_tile_large_bg_curator"
 		textureFile = "gfx/interface/tiles/tile_large_bg_curator.dds"
 		borderSize = { x=330 y=296 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_tile_large_bg_solid"
 		textureFile = "gfx/interface/tiles/tile_large_bg_solid.dds"
@@ -1079,19 +1125,26 @@ spriteTypes = {
 	}
 
 	corneredTileSpriteType = {
+		name = "GFX_red_area_cut"
+		textureFile = "gfx/interface/tiles/red_area_cut.dds"
+		borderSize = { x=5 y=5 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	corneredTileSpriteType = {
 		name = "GFX_glow_tile_orange"
 		textureFile = "gfx/interface/tiles/glow_tile_orange.dds"
 		borderSize = { x=12 y=12 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_glow_tile_striped"
 		textureFile = "gfx/interface/tiles/glow_tile_orange_striped.dds"
 		borderSize = { x=20 y=20 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_glow_tile_line"
 		textureFile = "gfx/interface/tiles/glow_tile_orange_line.dds"
@@ -1147,14 +1200,14 @@ spriteTypes = {
 		borderSize = { x=2 y=2 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_plain_orange_frame_tile"
 		textureFile = "gfx/interface/tiles/black_bg_orange_frame_light_tile.dds"
 		borderSize = { x=2 y=2 }
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_button_tile"
 		textureFile = "gfx/interface/tiles/button_tile.dds"
@@ -1167,7 +1220,7 @@ spriteTypes = {
 		textureFile = "gfx/interface/planetview/output_bar.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
-	
+
 	progressbarType = {
 		name = "GFX_pop_happiness_progressbar_blue"
 		color = { 1.0 1.0 1.0 }
@@ -1176,7 +1229,7 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/progressbars/happiness_progressbar_empty.dds"
 		size = { x = 98 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
-	}	
+	}
 
 	progressbarType = {
 		name = "GFX_pop_happiness_progressbar_green"
@@ -1187,7 +1240,7 @@ spriteTypes = {
 		size = { x = 98 y = 8 }
 		effectFile = "gfx/FX/progress.lua"
 	}
-	
+
 	progressbarType = {
 		name = "GFX_pop_happiness_progressbar_gray"
 		color = { 1.0 1.0 1.0 }
@@ -1277,7 +1330,7 @@ spriteTypes = {
 		name = "GFX_planet_view_planet_amenities"
 		textureFile = "gfx/interface/icons/planet_amenities.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_planet_view_planet_amenities_no_happiness"
 		textureFile = "gfx/interface/icons/planet_amenities_no_happiness.dds"
@@ -1286,8 +1339,8 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_empire_economy"
 		textureFile = "gfx/interface/icons/empire_economy.dds"
-	}			
-	
+	}
+
 	spriteType = {
 		name = "GFX_pop_status"
 		textureFile = "gfx/interface/planetview/pop_status.dds"
@@ -1543,6 +1596,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_standard_button_340"
+		texturefile = "gfx/interface/buttons/button_340_animated.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+		noOfFrames = 3
+		animation = {
+			animationmaskfile = "gfx/interface/buttons/button_240_34_animated_mask.dds"
+			animationtexturefile = "gfx/interface/buttons/button_142_animated_texture.dds"
+			animationrotation = 180.0
+			animationlooping = yes
+			animationtime = 60.0
+			animationdelay = 0.0
+			animationblendmode = "overlay"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+			animationframes = { 1 2 3 }
+		}
+	}
+
+	spriteType = {
 		name = "GFX_upgradeable"
 		textureFile = "gfx/interface/planetview/upgrade_building_available.dds"
 	}
@@ -1566,12 +1639,12 @@ spriteTypes = {
 		textureFile = "gfx/interface/planetview/spaceport_module_slot.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
+
 	spriteType = {
 		name = "GFX_spaceport_module_used_slot"
 		textureFile = "gfx/interface/planetview/spaceport_module_used_slot.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
-	}	
+	}
 
 	spriteType = {
 		name = "GFX_building_module_locked_slot"
@@ -1613,7 +1686,7 @@ spriteTypes = {
 		name = "GFX_planet_view_starvation"
 		texturefile = "gfx/interface/icons/planet_modifiers/pm_starvation.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_planet_view_bombarded"
 		texturefile = "gfx/interface/icons/planet_modifiers/pm_under_orbital_bombardment.dds"
@@ -1632,12 +1705,17 @@ spriteTypes = {
 		name = "GFX_has_expansion_entry"
 		texturefile = "gfx/interface/icons/icon_colony_ship.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_selected_building"
 		textureFile = "gfx/interface/planetview/tiles_frame_allowed.dds"
-	}	
-	
+	}
+
+	spriteType = {
+		name = "GFX_districts_bg"
+		texturefile = "gfx/interface/icons/districts/district_backing_box.dds"
+	}
+
 	spriteType = {
 		name = "GFX_district_box_icon"
 		texturefile = "gfx/interface/icons/districts/grid_box/default.dds"
@@ -1702,41 +1780,46 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_district_small"
 		texturefile = "gfx/interface/icons/district.dds"
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_migration_icon"
 		texturefile = "gfx/interface/planetview/migration.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_pop_assembly_icon"
 		texturefile = "gfx/interface/planetview/pop_assembly.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_pop_assembly_organic_icon"
+		texturefile = "gfx/interface/planetview/pop_assembly_organic.dds"
+	}
+
 	spriteType = {
 		name = "GFX_planetview_topright_frame"
 		texturefile = "gfx/interface/planetview/planetview_topright_frame.dds"
 	}
-	
+
 	corneredTileSpriteType = {
 		name = "GFX_planetview_topright_bg_small"
 		texturefile = "gfx/interface/planetview/planetview_topright_bg_small.dds"
 		borderSize = { x=5 y=5 }
 	}
-	
+
 	spriteType = {
 		name = "GFX_terraform_bg"
 		texturefile = "gfx/interface/planetview/terraform_bg.dds"
 		noOfFrames = 2
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_blocker_icon"
 		texturefile = "gfx/interface/planetview/blocker_icon.dds"
 		noOfFrames = 2
-	}	
-	
+	}
+
 	spriteType = {
 		name = "GFX_district_any_big"
 		texturefile = "gfx/interface/icons/districts/grid_box/district_any_big.dds"
@@ -1768,6 +1851,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_assembling_organic_bg"
+		texturefile = "gfx/interface/icons/planet_backgrounds/pc_assembly_organic.dds"
+	}
+
+	spriteType = {
 		name = "GFX_declining_bg"
 		texturefile = "gfx/interface/icons/planet_backgrounds/pc_declining_migrate.dds"
 	}
@@ -1776,7 +1864,7 @@ spriteTypes = {
 		name = "GFX_purging_bg"
 		texturefile = "gfx/interface/icons/planet_backgrounds/pc_declining_purge.dds"
 	}
-	
+
 	spriteType = {
 		name = "GFX_button_open_sector_view"
 		texturefile = "gfx/interface/buttons/button_open_sector_view.dds"

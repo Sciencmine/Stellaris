@@ -3,6 +3,24 @@ spriteTypes = {
 	### DLCs ###
 
 	spriteType = {
+		name = "GFX_nemesis"
+		texturefile = "gfx/interface/icons/dlc/nemesis.dds"
+		noOfFrames = 1
+	}
+
+	spriteType = {
+		name = "GFX_nemesis_big"
+		texturefile = "gfx/interface/icons/dlc/nemesis_big.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_nemesis_small"
+		texturefile = "gfx/interface/icons/dlc/nemesis_small.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
 		name = "GFX_necroidsspeciespack"
 		texturefile = "gfx/interface/icons/dlc/necroids_species_pack.dds"
 		noOfFrames = 1

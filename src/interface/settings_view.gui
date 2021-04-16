@@ -1338,7 +1338,6 @@ guiTypes = {
 					maxHeight = 35
 					fixedSize = yes
 					format = left
-					appendtext = ":"
 				}
 				
 				instantTextBoxType = {
@@ -1410,7 +1409,6 @@ guiTypes = {
 					maxHeight = 35
 					fixedSize = yes
 					format = left
-					appendtext = ":"
 				}
 				
 				instantTextBoxType = {
@@ -1526,9 +1524,80 @@ guiTypes = {
 					}
 
 					navUp = "auto_unpause_spinner"
-					navDown = "autosave_spinner"		
+					navDown = "mouse_panning_spinner"		
 				}
 				
+				# Mouse panning
+				
+				containerWindowType = {
+					name = "settings_slider_mouse_panning_bg"
+					size = { width = 795 height = 46 }
+					position = { x = -427 y = 316 }
+					
+						background = {
+							name = "setting_bg_frame"
+							spriteType = "GFX_tiles_dark_area_cut_8"
+						}
+				}
+
+				instantTextBoxType = {
+					name = "mouse_panning_label"
+					font = "malgun_goth_24"
+					text = "SETTINGS_MOUSE_PANNING_LABEL"
+					position = { x = -410 y = 326 }
+					maxWidth = 400
+					maxHeight = 35
+					fixedSize = yes
+					format = left
+				}
+				
+				instantTextBoxType = {
+					name = "mouse_panning_value"
+					font = "malgun_goth_24"
+					text = "OFF"
+					position = { x = 80 y = 326 }
+					maxWidth = 200
+					maxHeight = 35
+					fixedSize = yes
+					format = center
+				}
+				
+				spinnerType = {
+					id = "mouse_panning_spinner"
+					name = "mouse_panning_spinner"	
+					leftbutton = "spinner_upButton"
+					rightbutton = "spinner_downButton"
+					size = {x = 360 y = 24 }
+					position = {x = 0 y = 326}
+					priority = 100			
+					borderSize = {x =16 y = 16}	
+					horizontal = 1
+					maxValue = 100
+					startValue = 0
+						
+					guiButtonType = {
+						name = "spinner_upButton"
+						quadTextureSprite = "scrollbar_leftbutton"
+						position = { x=30 y =0}	
+					}
+					guiButtonType = {
+						name = "spinner_downButton"
+						quadTextureSprite = "scrollbar_rightbutton"
+						position = { x=30 y =120}	
+					}
+
+					overlay = {
+						name = "selected_overlay"
+						spriteType = "GFX_glow_tile_orange_no_padding"
+						overSprite = "GFX_glow_tile_line"
+						position = { x = @spinnerOverlayPosX y = @spinnerOverlayPosY }
+						size = { x = @spinnerOverlaySizeX y = @spinnerOverlaySizeY }
+					}
+					
+					navUp = "rtp_spinner"
+					navDown = "autosave_spinner"
+				}					
+
 				## Input type				
 				#
 				#containerWindowType = {
@@ -1551,7 +1620,6 @@ guiTypes = {
 				#	maxHeight = 35
 				#	fixedSize = yes
 				#	format = left
-				#	appendtext = ":"
 				#}
 				#
 				#instantTextBoxType={

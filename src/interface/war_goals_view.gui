@@ -265,14 +265,14 @@ guiTypes = {
 
 			iconType = {
 				name = "war_goal_icon"
-				position = { x = 30 y = 136 }
+				position = { x = 30 y = 126 }
 				centerPosition = yes
 				spriteType = "GFX_alliance_vote_status" # Changed in code
 				alwaysTransparent = yes
 			}
 			instantTextBoxType = {
 				name = "war_goal_header"
-				position = { x = 50 y = 125 }
+				position = { x = 50 y = 110 }
 				maxWidth = 260
 				maxHeight = 20
 				font = "cg_16b"
@@ -283,9 +283,9 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "war_goal_text"
-				position = { x = 50 y = 145 }
+				position = { x = 50 y = 135 }
 				maxWidth = 255
-				maxHeight = 175
+				maxHeight = 160
 				font = "cg_16b"
 				scrollbarType = "standardtext_slider"
 			}

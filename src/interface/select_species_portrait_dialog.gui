@@ -49,8 +49,9 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "portraits_container"
-			position = { x = 10 y = 53 }
-			size = { width = 473 height = 265 }
+			position = { x = 7 y = 53 }
+			size = { width = 478 height = 265 }
+			verticalScrollBar = "right_vertical_slider"
 
 			background = {
 				name = "background"

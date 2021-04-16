@@ -1,12 +1,12 @@
 guiTypes = {
 
 	positionType = {
-		name = "rune_background_bar_size"
+		name = "background_bar_size"
 		position = { x = 45 y = 19 }
 	}
 
 	containerWindowType = {
-		name = "archaeology_view"
+		name = "first_contact_view"
 		orientation = center
 		size = { width = 940 height = 640 }
 		position = { x = 0 y = 0 }
@@ -19,14 +19,9 @@ guiTypes = {
 			quadTextureSprite ="GFX_tile_large_bg"
 		}
 
-		#iconType = {
-		#	name = "vertical_divider"
-		#	spriteType = "GFX_vertical_line"
-		#	position = { x = 567 y = 52 }
-		#	alwaysTransparent = yes
-		#}
 
 		# Header ----------------------------------------------------------------
+
 		iconType = {
 			name = "hex_bg"
 			spriteType = "GFX_hex_bg"
@@ -58,7 +53,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_fleetview_focus"
 			position = { x = -75 y = 10 }
 			orientation = upper_right
-			pdx_tooltip = "ARC_GO_TO"
+			pdx_tooltip = "FC_GO_TO"
 			shortCut = "q"
 		}
 
@@ -103,8 +98,8 @@ guiTypes = {
 
 			backGround = {
 				name = "background"
-				quadTextureSprite ="GFX_chapter_container"
-				position = { x = 0 y = -1 }
+				quadTextureSprite ="GFX_firstcontact_progressframe"
+				position = { x = -58 y = -27 }
 			}
 
 			iconType = {
@@ -113,16 +108,9 @@ guiTypes = {
 				position = { x = 40 y = 19 }
 			}
 
-			buttonType = {
-				name = "chapters_button"
-				spriteType = "GFX_chapter_0"
-				position = { x = 15 y = 8 }
-				frame = 3
-			}
-
 			OverlappingElementsBoxType = {
-				name = "chapters_box"	
-				position = { x = 60 y = 10 }
+				name = "chapters_box"
+				position = { x = 15 y = 8 }
 				size = { x = 285 y = 60 }
 				format = left
 			}
@@ -144,8 +132,8 @@ guiTypes = {
 
 		iconType = {
 			name = "no_report_icon"
-			quadTextureSprite = "GFX_archaeology_sign"
-			position = { x = 267 y = 370 }
+			quadTextureSprite = "GFX_firstcontact_icon_blocked"
+			position = { x = 261 y = 370 }
 			alwaystransparent = yes
 		}
 		instantTextBoxType = {
@@ -195,53 +183,45 @@ guiTypes = {
 			max_slots_vertical = 3
 		}
 
-		buttonType = {
-			name = "leave_button"
-			position = { x = 7 y = -60 }
-			orientation = lower_left
-			spriteType = "GFX_standard_button_142_34_button"
-			buttonFont = "cg_16b"
-			text = "ARC_ABANDON"
-		}
-
 		# ---------------------------------------------------------------------
 
 		# Expedition Chapter --------------------------------------------------
 
+		
 		containerWindowType = {
 			name = "title_chapter"
 			size = { width = 180 height = 180 }
 			position = { x = 570 y = 20 }
 
 			iconType = {
-				name = "expedition_file_bg"
-				quadTextureSprite = "GFX_expedition_file_bg"
-				position = { x = 4 y = 26 }
+				name = "firstcontact_file_bg"
+				quadTextureSprite = "GFX_firstcontact_file_bg"
+				position = { x = 6 y = 26 }
 			}
 			
 			iconType = {
 				name = "title_hex"
-				quadTextureSprite = "GFX_small_hex_bg"
-				position = { x = 5 y = 18 }
+				quadTextureSprite = "GFX_tradition_hex_bg_blue"
+				position = { x = 5 y = 15 }
 			}
 
 			iconType = {
 				name = "title_line"
-				quadTextureSprite = "GFX_line_short"
-				position = { x = 15 y = 53 }
+				quadTextureSprite = "GFX_FC_separator"
+				position = { x = 65 y = 55 }
 			}
 
 			iconType = {
-					name = "siteInProg"
-					position = { x = 18 y = 33 }
-					quadTextureSprite = "GFX_icon_archaeology"	
-					scale = 1				
-				}
+				name = "firstcontact_icon_header"
+				position = { x = 5 y = 11 }
+				quadTextureSprite = "GFX_firstcontact_ui_icon"
+				scale = 1				
+			}
 
 			instantTextBoxType = {
 				name = "title_text"
 				font = "malgun_goth_24"
-				position = { x = 53 y = 35 }
+				position = { x = 72 y = 33 }
 				text = "CURRENT CHAPTER"
 				maxWidth = 168
 				maxHeight = 20
@@ -265,8 +245,8 @@ guiTypes = {
 				name = "title_text"
 				font = "cg_16b"
 				position = { x = 12 y = 95 }
-				text = "scientist"
-				maxWidth = 168
+				text = "envoy"
+				maxWidth = 110
 				maxHeight = 20
 				fixedSize = yes
 				format = left
@@ -292,12 +272,6 @@ guiTypes = {
 				position = { x = 85 y = -175 }
 			}	
 
-			OverlappingElementsBoxType = {
-				name = "traits"	
-				position = { x = 10 y = 150 }
-				size = { x = 152 y = 16 }
-				format = left
-			}
 			containerWindowType = {
 				name = "portrait"
 				size = { width = 64 height = 76 }
@@ -306,7 +280,7 @@ guiTypes = {
 
 				buttonType = {
 					name = "bg"
-					quadTextureSprite = "GFX_leader_bg_scientist"
+					quadTextureSprite = "GFX_leader_bg_envoy"
 					position = { x = 0 y = 0 }
 					scale = 0.2
 					alwaysTransparent = yes
@@ -321,6 +295,14 @@ guiTypes = {
 				}
 			}
 				
+			iconType = {
+				name = "plus_icon"
+				quadTextureSprite = "GFX_add_envoy_btn"
+				position = { x = 10 y = 10 }
+				alwaysTransparent = yes
+				scale = 1.02
+			}
+
 			buttonType = {
 				name = "change_leader"
 				quadTextureSprite = "GFX_button_light"
@@ -328,42 +310,13 @@ guiTypes = {
 				position = { x = 11 y = 11 }												
 			}
 
-			iconType = {
-				name ="leader_skill"
-				spriteType = "GFX_leader_skill"
-				position = { x = 15 y = 66 }
-				frame = 5
-			}			
-		}
 
-		containerWindowType = {
-			name = "select_leader_window"
-			position = { x = 584 y = 100 }
-			size = { width = 492 height = 285 }
-
-			background = {
-				name = "picture_background"
-				spriteType = "GFX_subwindow_tile_plain_solid"
-				alwaystransparent = yes
-			}
-
-			buttonType = {
-				name = "close_button"
-				quadTextureSprite = "GFX_close"
-				position = { x = -40 y = 2 }
-				orientation = upper_right
-				pdx_tooltip = "CLOSE_TITLE"
-			}
-
-			smoothListBoxType = {
-				name = "leader_list"
-				position = { x = 8 y = 5 }
-				orientation = upper_left
-				size = { x = 430 y = 260 }
-				borderSize = { x = 0 y = 0 }
-				scrollbartype = "standardlistbox_slider"
-				spacing = 5
-			}
+			# iconType = {
+			# 	name ="leader_skill"
+			# 	spriteType = "GFX_leader_skill"
+			# 	position = { x = 15 y = 66 }
+			# 	frame = 5
+			# }			
 		}
 
 		containerWindowType = {
@@ -429,7 +382,7 @@ guiTypes = {
 				position = { x = 45 y = 40 }
 				spriteType = "GFX_difficulty_range"
 				frame = 1
-				pdx_tooltip = "ARCHAEOLOGICAL_SITE_CHALLENGE"
+				pdx_tooltip = "FIRST_CONTACT_SITE_CHALLENGE"
 			}
 
             #
@@ -442,7 +395,7 @@ guiTypes = {
 			#	maxHeight = 20
 			#	fixedSize = yes
 			#	format = left
-			#	pdx_tooltip = "ARCHAEOLOGICAL_SITE_CHALLENGE"
+			#	pdx_tooltip = "FIRST_CONTACT_SITE_CHALLENGE"
 			#}
 
 			#iconType = {
@@ -498,7 +451,7 @@ guiTypes = {
 				name = "difficulty_type_text"
 				font = "cg_16b"
 				position = { x = 0 y = 15 }
-				text = "ARC_DIFFICULTY_TYPE"
+				text = "FC_DIFFICULTY_TYPE"
 				maxWidth = 100
 				maxHeight = 20
 				fixedSize = yes
@@ -507,7 +460,7 @@ guiTypes = {
 			iconType = {
 				name = "difficulty_type_icon"
 				position = { x = 105 y = 8 }
-				spriteType = "GFX_archaeology_difficulty_normal"
+				spriteType = "GFX_firstcontact_difficulty_normal"
 				frame = 1
 			}
 			instantTextBoxType = {
@@ -525,7 +478,7 @@ guiTypes = {
 				name = "leader_bonus_text"
 				font = "cg_16b"
 				position = { x = 0 y = 48 }
-				text = "ARC_LEADER_BONUS"
+				text = "FC_LEADER_BONUS"
 				maxWidth = 100
 				maxHeight = 20
 				fixedSize = yes
@@ -551,18 +504,18 @@ guiTypes = {
 				name = "clues_text"
 				font = "cg_16b"
 				position = { x = 0 y = 81 }
-				text = "ARC_CLUES"
+				text = "FC_CLUES"
 				maxWidth = 100
 				maxHeight = 20
 				fixedSize = yes
 				format = right
-				pdx_tooltip = "ARC_CLUES_TT"
+				pdx_tooltip = "FC_CLUES_TT"
 			}
 			iconType = {
 				name = "clues_icon"
 				position = { x = 105 y = 75 }
 				spriteType = "GFX_clue"
-				pdx_tooltip = "ARC_CLUES_TT"
+				pdx_tooltip = "FC_CLUES_TT"
 			}
 			instantTextBoxType = {
 				name = "clues_value"
@@ -573,19 +526,76 @@ guiTypes = {
 				maxHeight = 20
 				fixedSize = yes
 				format = left
-				pdx_tooltip = "ARC_CLUES_TT"
+				pdx_tooltip = "FC_CLUES_TT"
 			}
 		}
 
 		containerWindowType = {
-			name = "expedition_log"
-			size = { width = 330 height = 255 }
+			name = "species_portrait_container"
+			size = { width = 340 height = 260 }
 			position = { x = 584 y = 338 }
 
-			backGround = {
-				name = "background"
-				quadTextureSprite ="GFX_dark_area_cut"
+			iconType = {
+				name = "species_BG"
+				quadTextureSprite = "GFX_FC_specie_BG"
+				position = { x = -4 y = 0 }
 			}
+
+			iconType = {
+				name = "species_frame"
+				quadTextureSprite = "GFX_FC_specie_frame"
+				position = { x = -2 y = 40 }
+			}
+
+			iconType = {
+				name = "species"
+				quadTextureSprite = "GFX_FC_portrait_character_masked"
+				position = { x = -36 y = -1 }
+				scale = 0.66
+			}
+
+			iconType = {
+				name = "unknown_species"
+				quadTextureSprite = "GFX_unknown_species_portrait_0"
+				position = { x = 70 y = 55 }
+			}
+
+			iconType = {
+				name = "fc_scan"
+				quadTextureSprite = "GFX_FC_specie_scan"
+				position = { x = -2 y = 176 }
+				frame = 1
+			}
+
+			iconType = {
+				name = "species_foreground"
+				quadTextureSprite = "GFX_FC_specie_foreground"
+				position = { x = -4 y = 38 }
+			}
+
+			containerWindowType = {
+				name = "contact_relation"
+				size = { width = 175 height = 42 }
+				position = { x = 68 y = 205 }
+				
+				iconType = {
+					name = "fc_relation_unknown"
+					quadTextureSprite = "GFX_option_icon_unknown"
+					position = { x = 40 y = 7 }
+				}
+
+				instantTextBoxType = {
+					name = "fc_relation_label"
+					font = "cg_16b"
+					position = { x = 75 y = 12 }
+					text = "FC_RELATION_LABEL_UNKNOWN"
+					maxWidth = 220
+					maxHeight = 20
+					fixedSize = yes
+					format = left
+				}
+			}	
+			
 			#
 			#"GFX_tiles_frame"
 
@@ -594,23 +604,33 @@ guiTypes = {
 				position = { x = 0 y = 0 }
 
 				backGround = {
-					name = "background_expedition_title"
-					quadTextureSprite ="GFX_expedition_title_bg"
+					name = "background_specie_title"
+					quadTextureSprite ="GFX_firstcontact_specie_title"
 					alwaysTransparent = yes
 				}
 
 			}
 
 			instantTextBoxType = {
-				name = "header"
+				name = "species_header"
 				font = "cg_16b"
 				position = { x = 15 y = 10 }
-				text = "ARC_EXPEDITION_LOG"
+				text = "FC_SPECIES"
 				maxWidth = 120
 				maxHeight = 20
 				fixedSize = yes
 				format = left
-				pdx_tooltip = "ARC_EXPEDITION_LOG_TT"
+				pdx_tooltip = "FC_SPECIES_TT"
+			}
+
+			instantTextBoxType={
+				name = "species_type"
+				font = "cg_16b"
+				position = { x = 120 y = 525 }
+				maxWidth = 130
+				maxHeight = 32
+				format = LEFT
+				text_color_code = "E"
 			}
 			
 			#iconType = {
@@ -620,14 +640,6 @@ guiTypes = {
 			#	scale = 0.6
 			#}
 
-			smoothListBoxType = {
-				name = "log_list"
-				position = { x = 10 y = 45 }
-				orientation = upper_left
-				size = { x = 310 y = 200 }
-				borderSize = { x = 0 y = 0 }
-				scrollbartype = "standardlistbox_slider"
-			}
 		}
 
 		containerWindowType = {
@@ -644,44 +656,29 @@ guiTypes = {
 			#	quadTextureSprite ="GFX_expedition_file_blocked"
 			#}
 
-			##Sliding Doors --------------------------------------
 			iconType = {
-				name = "doorRight"
-				spriteType = "GFX_expedition_file_blocked_doorRight"
-				orientation = upper_right
-				position = { x = -184 y = 0}
-			}
-
-			iconType = {
-				name = "doorLeft"
-				spriteType = "GFX_expedition_file_blocked_doorLeft"
-				orientation = upper_left
+				name = "blocked_background"
+				spriteType = "GFX_firstcontact_blocked_contact"
+				orientation = TOP
 				position = { x = 0 y = 0}
 			}
 
 			instantTextBoxType = {
 				name = "text"
 				font = "cg_16b"
-				position = { x = 0 y = 280 }
+				position = { x = 0 y = 320 }
 				text = "THIS IS LOCKED/FINISHED"
-				maxWidth = 350
+				maxWidth = 346
 				maxHeight = 20
 				fixedSize = yes
 				format = center
 			}
 
-
-			
-
-
 			iconType = {
 				name = "icon"
-				quadTextureSprite = "GFX_archaeology_sign"
-				position = { x = 150 y = 230 }
+				quadTextureSprite = "GFX_firstcontact_icon_blocked"
+				position = { x = 147 y = 248 }
 			}
-
-			
-
 		}
 	}
 
@@ -689,7 +686,7 @@ guiTypes = {
 
 	# Event ---------------------------------------------------------------
 	containerWindowType = {
-		name = "event_entry"
+		name = "stage_event_entry"
 		position = { x=0 y=0 }
 		size = { width = 530 height = 180 }	# might be resized in code
 
@@ -723,7 +720,7 @@ guiTypes = {
 	}	
 
 	containerWindowType = {
-		name = "event_option"
+		name = "stage_event_option"
 		position = { x=0 y=0 }
 		size = { width = 542 height = 30 }     
 
@@ -752,26 +749,28 @@ guiTypes = {
 	# ----------------------------------------------------------------------
 
 	containerWindowType = {
-		name = "chapters_box_entry"
+		name = "stages_box_entry"
 		position = { x=0 y=0 }
 		size = { width = 50 height = 50 }
 
-		iconType = {
-			name = "rune_background"
-			quadTextureSprite = "GFX_chapter_button"
-			position = { x = -7 y = -8 }
-			frame = 1
-		}
+		## VM: I'll see if I can change the art to something similar here.. meanwhile, I'm commenting this one, as they're not being used anyway
+		
+		#iconType = {
+		#	name = "rune_background"
+		#	quadTextureSprite = "GFX_chapter_button"
+		#	position = { x = -7 y = -8 }
+		#	frame = 1
+		#}
 
 		buttonType = {
 			name = "rune_button"
-			quadTextureSprite = "GFX_archaeology_runes_A1"
-			position = { x = -1 y = -2 }
+			quadTextureSprite = "GFX_firstcontact_icon_starter"
+			position = { x = 0 y = 0 }
 		}
 
 		buttonType = {
 			name = "chapter_button"
-			quadTextureSprite = "GFX_chapter_in_progress"
+			quadTextureSprite = "GFX_firstcontact_icon_progress"
 			position = { x = 0 y = 0 }
 			frame = 1
 		}
@@ -779,72 +778,8 @@ guiTypes = {
 		iconType = {
 			name = "chapter_progress"
 			quadTextureSprite = "GFX_chapter_progress_bar"
-			position = { x = -1 y = -2 }
+			position = { x = 1 y = 1 }
 			frame = 1
-		}
-	}
-
-	containerWindowType = {
-		name = "expedition_log_entry"
-		position = { x=0 y=0 }
-		size = { width = 310 height = 50 }
-
-		background = {
-			name = "background"
-			spriteType = "GFX_dark_area_cut"
-		}
-
-		iconType = {
-			name = "tab_icon"
-			quadTextureSprite = "GFX_expedition_log_tab"
-			position = { x = 0 y = 8 }
-			frame = 2 # yellow by default
-		}
-
-		instantTextBoxType = {
-			name = "date"
-			font = "cg_16b"
-			position = { x = 10 y = 17 }
-			text = "1100.02.10"
-			maxWidth = 120
-			maxHeight = 30
-			fixedSize = yes
-			format = left
-		}
-
-		iconType = {
-			name = "roll_icon"
-			quadTextureSprite = "GFX_icon_archaeology_dieroll"
-			position = { x = 140 y = 12 }
-			scale = 0.9
-		}
-
-		instantTextBoxType = {
-			name = "roll_text"
-			font = "cg_16b"
-			position = { x = 180 y = 17 }
-			text = "9"
-			maxWidth = 40
-			maxHeight = 30
-			fixedSize = yes
-			format = left
-		}
-
-		iconType = {
-			name = "clue_icon"
-			quadTextureSprite = "GFX_log_clue"
-			position = { x = 235 y = 13 }
-		}
-
-		instantTextBoxType = {
-			name = "clue_text"
-			font = "cg_16b"
-			position = { x = 270 y = 17 }
-			text = "+2"
-			maxWidth = 40
-			maxHeight = 30
-			fixedSize = yes
-			format = left
 		}
 	}
 }

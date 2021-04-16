@@ -54,6 +54,12 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	spriteType = {
+		name = "GFX_nemesis_banner"
+		texturefile = "gfx/interface/banners/landing_page_nemesis.dds"
+		masking_texture = "gfx/interface/diplomacy/diplomacy_portrait_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
 		name = "GFX_megacorp_banner"
 		texturefile = "gfx/interface/banners/landing_page_megacorp.dds"
 		masking_texture = "gfx/interface/diplomacy/diplomacy_portrait_mask.dds"

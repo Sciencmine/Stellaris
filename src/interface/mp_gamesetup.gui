@@ -4,22 +4,22 @@ guiTypes = {
 
 	positionType = {
 		name = "gamesetup_mp_chat_input_stt_off_size"
-		position = { x = 371 y = 20 }
+		position = { x = 350 y = 20 }
 	}
 
 	positionType = {
 		name = "gamesetup_mp_chat_input_stt_on_size"
-		position = { x = 305 y = 20 }
+		position = { x = 350 y = 20 }
 	}
 
 	positionType = {
 		name = "gamesetup_mp_chat_input_bkg_stt_off_size"
-		position = { x = 391 y = 34 }
+		position = { x = 350 y = 34 }
 	}
 
 	positionType = {
 		name = "gamesetup_mp_chat_input_bkg_stt_on_size"
-		position = { x = 315 y = 34 }
+		position = { x = 350 y = 34 }
 	}
 
 
@@ -114,9 +114,9 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "host_tools"
-			size = { width = 430 height = 55 }
+			size = { width = 470 height = 55 }
 			orientation = upper_right
-			position = { x = -435 y = 583 }
+			position = { x = -475 y = 583 }
 			
 			background = {
 				name = "humans_background"
@@ -128,7 +128,7 @@ guiTypes = {
 				font = "cg_16b"
 				text = "Host tools will be here"
 				position = { x = 0 y = 0 }
-				maxWidth = 370
+				maxWidth = 470
 				maxHeight = 160
 				fixedSize = yes
 				format = center
@@ -146,9 +146,9 @@ guiTypes = {
 
 			OverlappingElementsBoxType = {
 				name = "dlc_expansion_box"	
-				position = { x = 60 y = 10 }
+				position = { x = 50 y = 10 }
 				size = { x = 405 y = 37 }
-				spacing = -1
+				spacing = -2
 				format = left
 			}
 			
@@ -163,9 +163,9 @@ guiTypes = {
 	
 		containerWindowType = {
 			name = "galaxy_settings"
-			size = { width = 430 height = 540 }
+			size = { width = 470 height = 540 }
 			orientation = upper_right
-			position = { x = -435 y = 35 }
+			position = { x = -475 y = 35 }
 
 			background = {
 				name = "humans_background"
@@ -188,7 +188,7 @@ guiTypes = {
 			buttonType = {
 				name = "reset_button"
 				spriteType = "GFX_standard_button_142_34_button"
-				position = { x = 207 y = -12 }
+				position = { x = 253 y = -12 }
 				buttonFont = "malgun_goth_24"
 				buttonText = "RESET_DEFAULT"
 				orientation = "UPPER_LEFT"
@@ -199,7 +199,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "gamesetup_contents"
-				size = { width = 434 height = 495 }
+				size = { width = 474 height = 495 }
 				orientation = upper_left
 				position = { x = -3 y = 40 }
 
@@ -228,7 +228,7 @@ guiTypes = {
 									
 					instantTextBoxType = {
 						name = "pick_size_text"
-						position = { x = 195 y = 3 }
+						position = { x = 235 y = 3 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 35
@@ -244,7 +244,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -283,7 +283,7 @@ guiTypes = {
 
 					instantTextBoxType = {
 						name = "pick_shape_text"
-						position = { x = 195 y = 3 }
+						position = { x = 235 y = 3 }
 						font = "cg_16b"
 						text = "SHAPE_NORMAL"
 						maxWidth = 204
@@ -300,7 +300,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -338,7 +338,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_empires_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -352,7 +352,7 @@ guiTypes = {
 						name = "randomize_checkbox"
 						spriteType = "GFX_checkbox_20_20_01"
 						pdx_tooltip = "FE_RANDOMIZE_EMPIRES_TOOLTIP"
-						position = { x = 392 y = 0 }
+						position = { x = 432 y = 0 }
 					}
 			
 					scrollbarType = {
@@ -362,7 +362,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -419,7 +419,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_empires_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -433,7 +433,7 @@ guiTypes = {
 						name = "randomize_checkbox"
 						spriteType = "GFX_checkbox_20_20_01"
 						pdx_tooltip = "FE_RANDOMIZE_ADVANCED_EMPIRES_TOOLTIP"
-						position = { x = 392 y = 0 }
+						position = { x = 432 y = 0 }
 					}				
 			
 					scrollbarType = {
@@ -443,7 +443,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -500,7 +500,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_empires_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -514,7 +514,7 @@ guiTypes = {
 						name = "randomize_checkbox"
 						spriteType = "GFX_checkbox_20_20_01"
 						pdx_tooltip = "FE_RANDOMIZE_FALLEN_EMPIRES_TOOLTIP"
-						position = { x = 392 y = 0 }
+						position = { x = 432 y = 0 }
 					}
 			
 					scrollbarType = {
@@ -524,7 +524,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -581,7 +581,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "pick_empires_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -606,7 +606,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						borderSize = {x =16 y = 16}
 						maxValue = 100
@@ -663,7 +663,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -680,7 +680,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -737,7 +737,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -754,7 +754,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -811,7 +811,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -828,7 +828,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -885,7 +885,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -902,7 +902,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -940,9 +940,63 @@ guiTypes = {
 					}
 				}
 
+				# Crisis Type
+				containerWindowType = {
+					name = "crisis_type"
+					position = { x = 0 y = 400 }
+					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
+
+					instantTextBoxType = {
+						name = "crisis_type_label"
+						position = { x = 10 y = 4 }
+						font = "cg_16b"
+						maxWidth = 204
+						maxHeight = 52	
+						alwaysTransparent = yes
+						orientation = "UPPER_LEFT"
+						text = "CRISIS_TYPE_LABEL"
+						pdx_tooltip = "CRISIS_TYPE_LABEL_TOOLTIP"
+					}
+					
+					instantTextBoxType={
+						name = "value"
+						font = "malgun_goth_24"
+						text = "CRISIS_TYPE_ANY"
+						position = { x = 235 y = 0 }
+						maxWidth = 204
+						maxHeight = 35
+						fixedSize = yes
+						format = center
+					}
+					
+					spinnerType = {
+						id = "crisis_type_spinner"
+						name = "crisis_type_spinner"	
+						leftbutton = "spinner_upButton"
+						rightbutton = "spinner_downButton"
+						size = { x = 204 y = 30 }
+						position = { x = 235 y = 0 }
+						priority = 100			
+						borderSize = { x = 16 y = 16 }	
+						horizontal = 1
+						maxValue = 100
+						startValue = 0
+							
+						guiButtonType = {
+							name = "spinner_upButton"
+							quadTextureSprite = "scrollbar_leftbutton"
+							position = { x=30 y =0}	
+						}
+						guiButtonType = {
+							name = "spinner_downButton"
+							quadTextureSprite = "scrollbar_rightbutton"
+							position = { x = 30 y = 120 }	
+						}		
+					}
+				}
 				containerWindowType = {
 					name = "mid_game"
-					position = { x = 0 y = 400 }
+					position = { x = 0 y = 440 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 					
 					instantTextBoxType = {
@@ -959,7 +1013,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -976,7 +1030,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -1016,7 +1070,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "end_game"
-					position = { x = 0 y = 440 }
+					position = { x = 0 y = 480 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 					
 					instantTextBoxType = {
@@ -1033,7 +1087,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1050,7 +1104,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -1090,7 +1144,7 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "victory"
-					position = { x = 0 y = 480 }
+					position = { x = 0 y = 520 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 					
 					instantTextBoxType = {
@@ -1107,7 +1161,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1124,7 +1178,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -1165,7 +1219,7 @@ guiTypes = {
 				# Difficulty
 				containerWindowType = {
 					name = "difficulty"
-					position = { x = 0 y = 520 }
+					position = { x = 0 y = 560 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1184,7 +1238,7 @@ guiTypes = {
 						name = "value"
 						font = "malgun_goth_24"
 						text = "DIFFICULTY_NORMAL"
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						maxWidth = 204
 						maxHeight = 35
 						fixedSize = yes
@@ -1197,7 +1251,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -1220,7 +1274,7 @@ guiTypes = {
 				# Scaling Difficulty
 				containerWindowType = {
 					name = "scaling_difficulty"
-					position = { x = 0 y = 560 }
+					position = { x = 0 y = 600 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1239,7 +1293,7 @@ guiTypes = {
 						name = "value"
 						font = "malgun_goth_24"
 						text = "FTL_WARP"
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						maxWidth = 204
 						maxHeight = 35
 						fixedSize = yes
@@ -1252,7 +1306,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -1275,7 +1329,7 @@ guiTypes = {
 				# Aggressiveness
 				containerWindowType = {
 					name = "aggressiveness"
-					position = { x = 0 y = 600 }
+					position = { x = 0 y = 640 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1294,7 +1348,7 @@ guiTypes = {
 						name = "value"
 						font = "malgun_goth_24"
 						text = "DIFFICULTY_NORMAL"
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						maxWidth = 204
 						maxHeight = 35
 						fixedSize = yes
@@ -1307,7 +1361,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -1330,7 +1384,7 @@ guiTypes = {
 				# Advanced empires near player
 				containerWindowType = {
 					name = "advanced_near_player"
-					position = { x = 0 y = 640 }
+					position = { x = 0 y = 680 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1349,7 +1403,7 @@ guiTypes = {
 						name = "value"
 						font = "malgun_goth_24"
 						text = "FTL_WARP"
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						maxWidth = 204
 						maxHeight = 35
 						fixedSize = yes
@@ -1362,7 +1416,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -1385,7 +1439,7 @@ guiTypes = {
 				# Player positions
 				containerWindowType = {
 					name = "pick_player_locations"
-					position = { x = 0 y = 680 }
+					position = { x = 0 y = 720 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1403,7 +1457,7 @@ guiTypes = {
 						name = "value"
 						font = "malgun_goth_24"
 						text = "PLAYER_LOCATIONS_NORMAL"
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						maxWidth = 204
 						maxHeight = 35
 						fixedSize = yes
@@ -1416,7 +1470,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -1439,7 +1493,7 @@ guiTypes = {
 				### Number of hyperlanes generated
 				containerWindowType = {
 					name = "hyperlanes"
-					position = { x = 0 y = 720 }
+					position = { x = 0 y = 760 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1455,7 +1509,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "pick_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1473,7 +1527,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						maxValue = 100
 						minValue = 0
@@ -1513,7 +1567,7 @@ guiTypes = {
 				### Pregenerated Gateways
 				containerWindowType = {
 					name = "gateways"
-					position = { x = 0 y = 760 }
+					position = { x = 0 y = 800 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1529,7 +1583,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "pick_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1547,7 +1601,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						borderSize = {x =16 y = 16}
 						maxValue = 100
@@ -1588,7 +1642,7 @@ guiTypes = {
 				### Number of natural wormhole pairs generated
 				containerWindowType = {
 					name = "wormholes"
-					position = { x = 0 y = 800 }
+					position = { x = 0 y = 840 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1604,7 +1658,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "pick_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1622,7 +1676,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100
 						borderSize = {x =16 y = 16}
 						maxValue = 100
@@ -1662,7 +1716,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "guaranteed_colonies"
-					position = { x = 0 y = 840 }
+					position = { x = 0 y = 880 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 					
 					instantTextBoxType = {
@@ -1679,7 +1733,7 @@ guiTypes = {
 					
 					instantTextBoxType = {
 						name = "pick_amount_value"
-						position = { x = -10 y = 5 }
+						position = { x = 30 y = 5 }
 						font = "cg_16b"
 						maxWidth = 204
 						maxHeight = 52
@@ -1696,7 +1750,7 @@ guiTypes = {
 						leftbutton = "scrollbar_upButton"
 						rightbutton = "scrollbar_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						maxValue = 100
@@ -1736,7 +1790,7 @@ guiTypes = {
 				# Caravaneers
 				containerWindowType = {
 				name = "caravaneer"
-				position = { x = 0 y = 880 }
+				position = { x = 0 y = 920 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 				instantTextBoxType = {
@@ -1755,7 +1809,7 @@ guiTypes = {
 						name = "value"
 						font = "malgun_goth_24"
 						text = "FTL_WARP"
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						maxWidth = 204
 						maxHeight = 35
 						fixedSize = yes
@@ -1768,7 +1822,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -1791,7 +1845,7 @@ guiTypes = {
 				# Xeno Compatibility
 				containerWindowType = {
 					name = "xeno_compatibility"
-					position = { x = 0 y = 920 }
+					position = { x = 0 y = 960 }
 					size={ width=@SettingEntrySizeX height=@SettingEntrySizeY }
 
 					instantTextBoxType = {
@@ -1810,7 +1864,7 @@ guiTypes = {
 						name = "value"
 						font = "malgun_goth_24"
 						text = "FTL_WARP"
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						maxWidth = 204
 						maxHeight = 35
 						fixedSize = yes
@@ -1823,7 +1877,7 @@ guiTypes = {
 						leftbutton = "spinner_upButton"
 						rightbutton = "spinner_downButton"
 						size = { x = 204 y = 30 }
-						position = { x = 195 y = 0 }
+						position = { x = 235 y = 0 }
 						priority = 100			
 						borderSize = { x = 16 y = 16 }	
 						horizontal = 1
@@ -1854,7 +1908,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "chat_background_window"
-				size = { width = 477 height = 538 }
+				size = { width = 437 height = 538 }
 				
 				background = {
 					name = "mp_game_setup_chat_window_background"
@@ -1872,7 +1926,7 @@ guiTypes = {
 			listboxType = {
 				name = "chat"
 				position = { x = 5 y = 9 }
-				size = { x = 450 y = 520 }
+				size = { x = 437 y = 520 }
 				spacing = 2
 				scrollbartype = "standardlistbox_slider"
 				borderSize = { x = 0 y = 0 }
@@ -1881,7 +1935,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "chat_input_background"
-				size = { width = 315 height = 34 }
+				size = { width = 255 height = 34 }
 				position = { x = 0 y = 539 }
 				
 				background = {
@@ -1893,7 +1947,7 @@ guiTypes = {
 			editBoxType = {
 				name = "largefont_chat_input"
 				position = { x = 8 y = 544 }
-				size = { x = 305 y = 22 }
+				size = { x = 255 y = 22 }
 				font = "malgun_goth_24"
 				cursor = { x=0 y= -1}
 			}
@@ -1901,7 +1955,7 @@ guiTypes = {
 			editBoxType = {
 				name = "chat_input"
 				position = { x = 10 y = 548 }
-				size = { x = 305 y = 20 }
+				size = { x = 255 y = 20 }
 				font = "cg_16b"
 				cursor = { x=0 y= -3}
 			}
@@ -1944,7 +1998,7 @@ guiTypes = {
 			buttonType = {
 				name = "send"
 				size = { x = 298 y = 35 }
-				position = { x = 385 y = -68 }
+				position = { x = 345 y = -68 }
 				spriteType = "GFX_button_75_24"
 				buttonFont = "cg_16b"
 				text = "SEND"
@@ -2004,13 +2058,6 @@ guiTypes = {
 			size = { x = 300 y = 20 }
 			position = { x= -125 y = -20  }
 			orientation = "CENTER_DOWN"
-		}
-
-		checkboxType = {
-			name = "ready_checkbox"
-			position = { x = -49 y = -49 }
-			orientation = "LOWER_RIGHT"
-			spriteType = "GFX_checkbox_20_20_01"
 		}
 
 		buttonType = {
@@ -2089,7 +2136,7 @@ guiTypes = {
 			font = "malgun_goth_24"
 			text = "GAME_MULTIPLAYER_LOBBY"
 			position = { x = 80 y = 5 }
-			maxWidth = 500
+			maxWidth = 210
 			maxHeight = 20
 			fixedSize = yes
 			format = left
@@ -2097,16 +2144,29 @@ guiTypes = {
 			text_color_code = "E"
 		}
 		
+
+		instantTextBoxType = {
+			name = "ready_status"
+			font = "cg_16b"
+			text = "MP_GAMESETUP_PLAYER_READY"
+			position = { x = 80 y = 26 }
+			maxWidth = 210
+			maxHeight = 20
+			fixedSize = yes
+			format = left
+			orientation = "UPPER_LEFT"
+		}
+		
 		buttonType = {
 			name = "design"
 			spriteType = "GFX_standard_button_142_34_button"
 			position = { x = 70 y = 38 }
 			buttonFont = "malgun_goth_24"
-			text = "MP_GAMESETUP_DESIGN"
+			text = "MP_GAMESETUP_EMPIRE_SELECT"
 			font = "cg_16b"
 			oversound = mouse_over
 		}
-		
+
 		buttonType = {
 			name = "kick"
 			spriteType = "GFX_mp_gamesetup_kick"

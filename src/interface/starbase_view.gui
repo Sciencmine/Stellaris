@@ -526,7 +526,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "no_constructions"
 					font = "malgun_goth_24"
-					text = "STARBASE_QUEUE"
+					text = "DEFENSE_QUEUE"
 					position = { x = 0 y = 8 }
 					maxWidth = 260
 					maxHeight = 20
@@ -547,13 +547,13 @@ guiTypes = {
 				}
 
 				buttonType = {				
-					name = "build"
+					name = "open_catalog"
 					size = { x = 265 y = 35 }
 					position = { x = -2 y = -58 }
 					orientation = lower_left
 					spriteType = "GFX_standard_button_240_34_button"
 					buttonFont = "cg_16b"
-					text = "STARBASE_BUILD_PLATFORMS"
+					text = "STARBASE_OPEN_DEFENSE_DESIGNS"
 					font = "cg_16b"
 					clicksound = planet_view_menu_click_01
 					shortcut = "b"
@@ -733,13 +733,13 @@ guiTypes = {
 				}
 
 				buttonType = {
-					name = "build"
+					name = "open_catalog"
 					size = { x = 290 y = 35 }
 					position = { x = -2 y = -58 }
 					orientation = lower_left
 					spriteType = "GFX_standard_button_240_34_button"
 					buttonFont = "cg_16b"
-					text = "STARBASE_BUILD_SHIPS"
+					text = "STARBASE_OPEN_SHIP_DESIGNS"
 					font = "cg_16b"
 					clicksound = planet_view_menu_click_01
 					shortcut = "b"

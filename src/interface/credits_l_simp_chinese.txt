@@ -1,3 +1,298 @@
+﻿#Stellaris: Nemesis 游戏团队
+--------
+##创意总监
+
+Henrik Fåhraeus
+
+##游戏总监
+
+Daniel Moregård
+
+##制作人
+
+Aziz Faghihinejad
+Daniel Lagergren
+Elin Holmberg
+Olga Shcherbak
+
+##设计师
+
+Markus Veit
+Stephen Muray
+
+##辅助设计师
+
+Jesper Blomqvist
+
+##技术首席
+
+Gwenael Tranvouez
+Lorenzo Berni
+Rickard Lagerbäck
+
+##程序
+
+Anton Södergren
+Filip Kirsek
+Gustav Palmqvist
+Ilya Nikitin
+Johan Melin
+Jörgen Risholt
+Mathieu Ropert
+Oleg Istomin
+Tobias Luckey
+Ulrika Uddeborg
+
+##辅助程序
+
+Daniel Bengtsson
+Marine Baghramyan
+Pierre du Plessis
+Peter Vestman
+
+##内容设计首席
+
+Henrik Thyrwall
+Maximilian Olbers
+
+##内容设计
+
+Douglas Furén
+Gemma Thomson
+Pierre du Plessis
+
+##辅助内容设计
+
+Byron Aytoun
+
+##用户体验设计
+
+Doyle Merlin Daigle II
+Valeska Martins
+
+##辅助用户体验设计
+
+Mikhail Gofman
+
+##艺术制作人
+
+Anton Wittberg Letoff
+Melinda Esponda Díaz
+
+##艺术首席
+
+Simon Gunnarsson
+
+##概念艺术
+
+Mattias Larsson
+Ylva Ljungqvist
+Ecbel Oueslati
+Alessandro Bragalini
+
+##平面艺术
+
+Nicolas Lennman
+Jeremie Tauziede
+
+##立体艺术
+
+Johan Lundqvist
+
+##动画
+
+Fabian Soon
+Hanna Johansson
+
+##视觉特效
+
+Erik Forsström
+
+##音声总监
+
+Björn Iversen
+
+##音效设计师
+
+David Schlein-Andersen
+Franco Freda
+Tobey Evans
+
+##外部合作伙伴
+
+##艺术
+
+N-iX Game & VR Studio
+Game Ace Studio
+
+##质量保障首席
+
+Joseph Gardener
+
+##项目协调人
+
+Fenni Johansson
+Rebecca Romin
+
+##嵌入式质量保障
+
+Byron Aytoun
+Daniel Teige
+Erik Elgerot
+Eva Mayer
+Struan McCallum
+
+##质量保障团队首席 - 中央
+
+Filippa Gannholm Kirsten
+
+##QLOC
+
+##质量保障团队组长
+
+Adam Nowicki
+
+##专门化测试员
+
+Marek Bombała
+Maciej Gutkowski
+Damian Szokalski
+
+##质量保障测试（辅助）
+
+Grzegorz Nowick
+
+##Keywords Studios Katowice
+
+##功能性质量保障项目经理
+
+Marcin Jankowski
+
+##功能性质量保障助理首席
+
+Marcin Sebesta
+
+##功能性质量保障资深测试员
+
+Dawid Kolaczuch
+
+##功能性质量保障测试员
+
+Mikolaj Bizacki
+Krzysztof Bochenek
+Kamil Drezek
+Dawid Kabasinski
+Rafal Kaluza
+Natalia Lechnata
+Mateusz Mierzwa
+Konrad Ruminski
+
+##Beta 测试员
+
+Francesco Teruzzi
+Jonathan Bagley
+Joshua "Mordaith" Smith
+Lumi Schildkraut
+Maik "Malthus" Wrba
+Marc Schmelzer
+Matthew Walsh
+Michael De Bona
+Nina Chance
+Sergey Demidov
+
+##产品经理
+
+Simon Stackmann
+
+##产品营销经理
+
+Pontus Rundqvist
+
+##绩效营销经理
+
+Michiel Van Loo
+
+##营销创意总监
+
+Axel Ullberger
+
+##营销创意制作人
+
+Oskar Petrén
+
+##自动化营销专家
+
+Johanna Kasurinen
+Karola Kiessling
+Annie Alström
+
+##销售副总裁
+
+Johan Bolin
+
+##合作伙伴关系主管
+
+Viktor Stadler
+
+##伙伴账户经理
+
+James Gardiner
+Albert Banda
+Ebba Frantzén
+Daniel Hjelmtorp
+
+##贸易营销经理
+
+Jackson Downing
+
+##商业经理
+
+Sofie Siggelin
+
+##数据科学家
+
+Stephen White
+Eduarda Oliveira
+
+##用户研究
+
+Yinyi Luo
+
+##社区经理
+
+Ann-Charlotte Mörk
+
+##影响者关系经理
+Jonathan Whitley
+
+##社区大使
+
+Graeme Crawford
+Matthew Freake
+
+##客户支持
+
+Christian Arvidsson
+Debbie Lane
+
+##直播内容
+
+Jimmy Tisell
+Anders Carlsson
+
+##公共关系
+
+Nick Shepherd
+Michael Mason
+
+##首席“双关”工作人员
+
+Rikard The Pun-isher
+
+##抱枕协调人
+
+Mercedes Romero
+
 #Stellaris: Necroids 游戏团队
 --------
 ##EVP 创意总监
@@ -1907,225 +2202,6 @@ Djordje Zivanovic
 ##首席“双关”工作人员
 
 Rikard The Pun-isher
-
-
-#Stellaris: Utopia 游戏团队
---------
-##EVP 创意总监
-Johan Andersson
-
-##游戏总监
-Martin Anward
-
-##项目组长
-Rikard Åslund
-Jamie Wood
-
-##设计师
-Martin Anward
-Daniel Moregård
-
-##程序
-Mehrnaz Amanat Bari
-Daniel Eriksson
-Hampus Liljekvist
-Gustav Palmqvist
-Lysann Schlegel
-
-##辅助程序
-Rikard Åslund
-Alexander Ivannikov
-
-##内容设计
-Henrik Eklund
-Drikus Kuiper
-Maximilian Olbers
-Miranda van den Brink
-
-##本地化经理
-Sara Wendel-Örtqvist
-
-##艺术协调人
-Pernilla Sparrhult
-
-##艺术总监
-Fredrik Toll
-
-##平面艺术
-Simon Gunnarsson
-Pontus Olofsson
-
-##立体艺术
-Joacim Carlberg
-Helena Kasper
-Johan Lundqvist
-
-##辅助艺术
-Kentaro Kanamoto
-Room 8 Studio
-
-##动画 & 特效
-Niklas Tammpere
-
-##质量保障经理
-Filippa Gannholm
-Felix Gladitz
-
-##嵌入式质量保障
-Aziz Faghihinejad
-Markus Veit
-Leo Larsson
-Peter Skager
-
-##社区质量保障
-Carsten 't Mannetje
-
-##质量保障测试
-Niall Bird
-Sebastian Borg
-Markus Grebe
-Katya Magnusson
-Daniel Moore
-Jesper Norberg
-Daniel Sjöberg
-Emil Tisander
-Albin Wallin
-
-##音声总监
-Björn Iversen
-
-##作曲
-Andreas Waldetoft
-
-##辅助音效设计
-David Schlein-Andersen
-
-##Beta 测试员
-George Bancroft
-Lukasz Delra
-Mikael Hagman
-Paul Howell
-Rajeev D. Majumdar
-Anton Panas
-Dylan Skoda
-Francesco Teruzzi
-Matthew Walsh
-Djordje Zivanovic
-
-
-# Stellaris: Leviathans / Horizon Signal 游戏团队
---------
-##EVP 创意总监
-Johan Andersson
-
-##游戏总监
-Martin Anward
-
-##项目组长
-Rikard Åslund
-
-##设计师
-Martin Anward
-Daniel Moregård
-
-##辅助设计
-Henrik Fåhraeus
-
-##客座作家
-Alexis Kennedy （视界信号）
-
-##程序
-Daniel Eriksson
-Alexander Ivannikov
-Mehrnaz Amanat Bari
-Joakim Bennedich
-Hampus Liljekvist
-
-##内容设计
-Maximilian Olbers
-Niclas Karlsson
-Rufus Tronde
-Henrik Eklund
-Miranda van den Brink
-
-##本地化经理
-Sara Wendel-Örtqvist
-
-##用户 Mod 协调人
-Joel Hansson
-Niklas Strid
-
-##艺术协调人
-Pernilla Sparrhult
-
-##艺术总监
-Fredrik Toll
-
-##平面美工
-Simon Gunnarsson
-Jonas Jakobsson
-Frida Eriksson
-
-##立体美工
-Helena Kasper
-Joacim Carlberg
-Johan Lundqvist
-
-##动画 & 特效
-Niklas Tammpere
-
-##概念美工
-Ylva Ljungqvist
-
-##质量保障经理
-Mario Lasan
-
-##嵌入式质量保障
-Aziz Faghihinejad
-Leo Larsson
-
-##社区质量保障
-Carsten 't Mannetje
-
-##质量保障测试
-Albin Wallin
-Arthur Bialecki
-Carmille Gidfors
-Daniel Sjöberg
-Jesper Norberg
-Malin Jakobsson
-Markus Grebe
-Olga Koter
-Patric Lindbergh
-Peter Skager
-Sebastian Borg
-
-##音声总监
-Björn Iversen
-
-##作曲
-Andreas Waldetoft
-
-##辅助音效设计
-David Schlein-Andersen
-
-##Beta 测试员
-Mark Charters
-Lukasz Damentko
-Dylan Anthony Skoda
-Cathrine Zangerl
-Michael Aaron Hoselton
-Jeroen Elfrink
-Christopher Kenneth O'Keefe
-Kamil Kowalczyk
-Erik Brian Olmstead
-Them Bo Bojesen Jensen
-Peter Deadman
-Richard Williams
-David Lockwood
-Edward Earl Chaney II
-Pablo Agustín Eralio
-Mitchell Alexander Cumming
 
 
 #Paradox Stellaris 游戏团队

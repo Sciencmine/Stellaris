@@ -439,6 +439,16 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 		}
 
+		buttonType = {
+			name = "auto_research"
+			quadTextureSprite = "GFX_button_automate"
+			position = { x = -59 y = -44 }
+			orientation = "LOWER_RIGHT"
+			scale = 1
+			oversound = "no_sound"
+			clicksound = "select_click"
+		}	
+
 		containerWindowType = {
 			name = "leader_window"
 			size = { width = 114 height = 154 }
@@ -602,18 +612,18 @@ guiTypes = {
 				iconType = {
 					name = "progress"
 					spriteType = "GFX_tech_research_progressbar"
-					position = { x = 130 y = 163 }
+					position = { x = 10 y = 163 }
 				}
 
 				instantTextBoxType={
 					name = "eta"
 					font = "cg_16b"
 					text = "? days remaining"
-					position = { x = -230 y = -35 }
+					position = { x = -330 y = -36 }
 					maxWidth = 180
 					maxHeight = 20
 					fixedSize = yes
-					format = centre
+					format = left
 					orientation = "LOWER_RIGHT"
 				}
 			}
@@ -661,16 +671,14 @@ guiTypes = {
 				orientation = "UPPER_LEFT"
 			}
 
-			
-
 			buttonType = {
 				name = "cancel_research"
 				quadTextureSprite = "GFX_button_update"
-				position = { x = -59 y = -44 }
+				position = { x = -94 y = -44 }
 				orientation = "LOWER_RIGHT"
 				scale = 1.0
 				clicksound = back_click
-			}											
+			}			
 		}						
 	}
 

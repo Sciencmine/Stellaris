@@ -710,7 +710,7 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 	spriteType = {
-		name = "GFX_evt_shrouded"
+		name = "GFX_evt_shrouded_planet"
 		texturefile = "gfx/event_pictures/shrouded_planet.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
@@ -1372,6 +1372,186 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_evt_necrophage"
 		texturefile = "gfx/event_pictures/necrophage.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_coronation"
+		texturefile = "gfx/event_pictures/coronation.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_vivisection"
+		texturefile = "gfx/event_pictures/vivisection.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_spymaster"
+		texturefile = "gfx/event_pictures/spymaster.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_space_crystals"
+		texturefile = "gfx/event_pictures/space_crystals.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_salute"
+		texturefile = "gfx/event_pictures/salute.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_robot_encounter"
+		texturefile = "gfx/event_pictures/robot_encounter.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_open_revolt"
+		texturefile = "gfx/event_pictures/open_revolt.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_mysterious_signal"
+		texturefile = "gfx/event_pictures/mysterious_signal.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_inhabited_solar_system"
+		texturefile = "gfx/event_pictures/inhabited_solar_system.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_hand_shake"
+		texturefile = "gfx/event_pictures/hand_shake.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_galactic_empire"
+		texturefile = "gfx/event_pictures/galactic_empire.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_face_off_in_space"
+		texturefile = "gfx/event_pictures/face_off_in_space.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_burning_city"
+		texturefile = "gfx/event_pictures/burning_city.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_worrying_signal"
+		texturefile = "gfx/event_pictures/worrying_signal.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_alien_abduction"
+		texturefile = "gfx/event_pictures/alien_abduction.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_death_from_above"
+		texturefile = "gfx/event_pictures/death_from_above.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_crisis_defeated"
+		texturefile = "gfx/event_pictures/crisis_defeated.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_crisis_declared"
+		texturefile = "gfx/event_pictures/crisis_declared.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_cover_blown"
+		texturefile = "gfx/event_pictures/cover_blown.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_acquire_asset"
+		texturefile = "gfx/event_pictures/acquire_asset.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_tradedeal"
+		texturefile = "gfx/event_pictures/tradedeal.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_supernova"
+		texturefile = "gfx/event_pictures/supernova.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_spy_network"
+		texturefile = "gfx/event_pictures/spy_network.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_smear_campaign"
+		texturefile = "gfx/event_pictures/smear_campaign.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_operative_chase"
+		texturefile = "gfx/event_pictures/operative_chase.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_intelligence_report"
+		texturefile = "gfx/event_pictures/intelligence_report.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_gunrunning"
+		texturefile = "gfx/event_pictures/gunrunning.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_decryption"
+		texturefile = "gfx/event_pictures/decryption.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_vortex"
+		texturefile = "gfx/event_pictures/vortex.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_undertaker"
+		texturefile = "gfx/event_pictures/undertaker.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}

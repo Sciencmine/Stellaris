@@ -222,7 +222,7 @@ guiTypes = {
 			font = "cg_16b"
 			text = "LEADER_STATUS"
 			position = { x = 98 y = 78 }
-			maxWidth = 180
+			maxWidth = 260
 			maxHeight = 40
 			format = left
 			alwaysTransparent = yes

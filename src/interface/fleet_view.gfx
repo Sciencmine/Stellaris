@@ -1796,14 +1796,46 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_galactic_community_fleet_view_top_panel_bg"
+		texturefile = "gfx/interface/fleet_view/galactic_community_fleet_view_top_panel.dds"
+	}
+
+	spriteType = {
+		name = "GFX_galactic_empire_fleet_view_top_panel_bg"
+		texturefile = "gfx/interface/fleet_view/galactic_empire_fleet_view_top_panel.dds"
+	}
+
+	spriteType = {
 		name = "GFX_federation_fleet_view_main_military_bg"
 		texturefile = "gfx/interface/fleet_view/fleet_view_main_federation_warships_bg.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 
 	spriteType = {
+		name = "GFX_galactic_community_fleet_view_main_military_bg"
+		texturefile = "gfx/interface/fleet_view/fleet_view_main_galactic_community_warships_bg.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_galactic_empire_fleet_view_main_military_bg"
+		texturefile = "gfx/interface/fleet_view/fleet_view_main_galactic_empire_warships_bg.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
 		name = "GFX_ship_entry_bg"
 		texturefile = "gfx/interface/fleet_view/ship_entry_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_galactic_community_ship_entry_bg"
+		texturefile = "gfx/interface/fleet_view/galactic_community_ship_entry_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_galactic_empire_ship_entry_bg"
+		texturefile = "gfx/interface/fleet_view/galactic_empire_ship_entry_bg.dds"
 	}
 
 	spriteType = {

@@ -101,6 +101,19 @@ spriteTypes = {
 		noOfFrames = 88
 	}	
 
+	spriteType = {
+		name = "GFX_firstcontact_icon"
+		texturefile = "gfx/interface/intel/firstcontact/firstcontact_map_icon.dds"
+		#noOfFrames = 1
+	}
+
+	
+	spriteType = {
+		name = "GFX_espionage_operation_icon"
+		texturefile = "gfx/interface/espionage/operation_map_icons.dds"
+		noOfFrames = 4
+	}
+
 	#spriteType = {
 	#	name = "GFX_is_surveyed"
 	#	textureFile = "gfx/interface/old/stolen_from_eu4/ai_accept_decline_tiny_icon.dds"

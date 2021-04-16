@@ -201,7 +201,7 @@ guiTypes = {
 			text = "Description"
 			position = { x = 270 y = 265 }
 			maxWidth = 260
-			maxHeight = 150
+			maxHeight = 260
 			fixedSize = yes
 			orientation = upper_left
 			alwaysTransparent = yes
@@ -211,7 +211,7 @@ guiTypes = {
 			name = "perks_desc"
 			font = "cg_16b"
 			text = "Description"
-			position = { x = 270 y = 340 }
+			position = { x = 270 y = 395 }
 			maxWidth = 260
 			maxHeight = 150
 			fixedSize = yes

@@ -6,6 +6,12 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	spriteType = {
+		name = "GFX_galactic_empire_button"
+		textureFile = "gfx/interface/galacticCommunity/galacticEmpire_mainButton.dds"
+		noOfFrames = 2
+	}
+
 	# Pulse Button
 	SpriteType = {
 		name = "GFX_galactic_community_button_pulse"
@@ -24,6 +30,18 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_galactic_community_button_end_session"
+		texturefile = "gfx/interface/galacticCommunity/button_galacticCommunity_end_session.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_galactic_community_emperor_button_end_session"
+		texturefile = "gfx/interface/galacticCommunity/button_galacticCommunity__emperor_endsession.dds"
+		noOfFrames = 3
 	}
 
 	spriteType = {
@@ -63,6 +81,26 @@ spriteTypes = {
 		textureFile2 = "gfx/interface/galacticCommunity/senateFloor_votingTally_progressBarLarge_bg.dds"
 		size = { x = 286 y = 12 }
 		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	progressbartype = {
+		name = "GFX_vote_balance_small_progressbar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }	
+		textureFile1 = "gfx/interface/galacticCommunity/mainbutton_overlay_progressbar_blue.dds"
+		textureFile2 = "gfx/interface/galacticCommunity/mainbutton_overlay_progressbar_red.dds"
+		size = { x = 33 y = 4 } # According to size of texture
+		effectFile = "gfx/FX/progress.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_vote_balance_supporting_dot"
+		textureFile = "gfx/interface/galacticCommunity/mainbutton_overlay_dot_blue.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_vote_balance_opposing_dot"
+		textureFile = "gfx/interface/galacticCommunity/mainbutton_overlay_dot_red.dds"
 	}
 
 	## Resolution Group Color Backgrounds -------
@@ -161,6 +199,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/galacticCommunity/galacticCommunity_portrait_bgCouncil.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_galactic_community_portrait_bg_custodian"
+		textureFile = "gfx/interface/galacticCommunity/galacticCommunity_portrait_bgCustodian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_galactic_community_portrait_bg_emperor"
+		textureFile = "gfx/interface/galacticCommunity/galacticCommunity_portrait_bgEmperor.dds"
+	}
+
 
 	spriteType = {
 		name = "GFX_diplomatic_weight_normal"
@@ -233,7 +281,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_emergency_measure"
-		textureFile = "gfx/interface/galacticCommunity/vote_emergency_measure.dds`"
+		textureFile = "gfx/interface/galacticCommunity/vote_emergency_measure.dds"
+	}
+
+	spriteType = {
+		name = "GFX_freeze_resolution"
+		textureFile = "gfx/interface/galacticCommunity/vote_freeze_resolution.dds"
 	}
 
 	## ------ SENATE FLOOR BG ------- ##
@@ -273,6 +326,36 @@ spriteTypes = {
 		textureFile = "gfx/interface/galacticCommunity/5_senateFloor_portrait_bg.dds"
 	}
 
+	# Imperium versions
+	spriteType = {
+		name = "GFX_0_senate_floor_empire_portrait_bg"
+		textureFile = "gfx/interface/galacticCommunity/0_senateFloor_empire_portrait_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_1_senate_floor_empire_portrait_bg"
+		textureFile = "gfx/interface/galacticCommunity/1_senateFloor_empire_portrait_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_2_senate_floor_empire_portrait_bg"
+		textureFile = "gfx/interface/galacticCommunity/2_senateFloor_empire_portrait_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_3_senate_floor_empire_portrait_bg"
+		textureFile = "gfx/interface/galacticCommunity/3_senateFloor_empire_portrait_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_4_senate_floor_empire_portrait_bg"
+		textureFile = "gfx/interface/galacticCommunity/4_senateFloor_empire_portrait_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_5_senate_floor_empire_portrait_bg"
+		textureFile = "gfx/interface/galacticCommunity/5_senateFloor_empire_portrait_bg.dds"
+	}
 	
 	## This is for Policies Tab
 	spriteType = {
@@ -285,4 +368,105 @@ spriteTypes = {
 		texturefile = "gfx/interface/galacticCommunity/galacticCommunity_inbreach.dds"
 		noOfFrames = 3
 	}
+
+	spriteType = {
+		name = "GFX_imperial_authority_trend"
+		texturefile = "gfx/interface/galacticCommunity/imperial_authority_trend.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_council_frame_32"
+		texturefile = "gfx/interface/flags/custodian_council_32_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_emperor_council_frame_32"
+		texturefile = "gfx/interface/flags/emperor_council_32_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_custodian_frame_32"
+		texturefile = "gfx/interface/flags/custodian_32_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_emperor_frame_32"
+		texturefile = "gfx/interface/flags/emperor_32_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_council_frame_48"
+		texturefile = "gfx/interface/flags/custodian_council_48_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_emperor_council_frame_48"
+		texturefile = "gfx/interface/flags/emperor_council_48_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_custodian_frame_48"
+		texturefile = "gfx/interface/flags/custodian_48_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_emperor_frame_48"
+		texturefile = "gfx/interface/flags/emperor_48_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_change_galactic_focus"
+		texturefile = "gfx/interface/galacticCommunity/Change_Galactic_Focus_Button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_custodian_backing"
+		texturefile = "gfx/interface/galacticCommunity/Custodian_Backing_GUI.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pause_resolution_overlay"
+		texturefile = "gfx/interface/galacticCommunity/Pause_Resolution_Overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_imperial_authority_icon"
+		texturefile = "gfx/interface/galacticCommunity/Imperial_Authority_Icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_empty_council"
+		texturefile = "gfx/interface/galacticCommunity/Empty_Council_Icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_emperor_authority_BG"
+		texturefile = "gfx/interface/galacticCommunity/Emperor_Authority_BG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_custodian_mini_BG"
+		texturefile = "gfx/interface/galacticCommunity/Custodian_mini_BG.dds"
+	}
+
+	spriteType = {
+		name = "GFX_emperor_mini_BG"
+		texturefile = "gfx/interface/galacticCommunity/Emperor_Backing_GUI.dds"
+	}
+
+	spriteType = {
+		name = "GFX_imperial_authority_bar"
+		texturefile = "gfx/interface/galacticCommunity/imperial_authority_bar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Custodian_mini_bg_frame"
+		texturefile = "gfx/interface/galacticCommunity/Custodian_mini_bg_GDF_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_imperial_authority_frame"
+		texturefile = "gfx/interface/galacticCommunity/icon_imperial_authority_frame.dds"
+	}
+
+	spriteType = {
+		name = "GFX_detail_line"
+		texturefile = "gfx/interface/galacticCommunity/detail_line_01.dds"
+	}
+
 }

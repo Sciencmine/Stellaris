@@ -38,8 +38,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_music_commands_icon"
+		texturefile = "gfx//interface//musicplayer/eighth_notes.dds"
+	}
+
+	spriteType = {
 		name = "GFX_music_pause_button"
-		texturefile = "gfx//interface//musicplayer/music_play_paus_button.dds"
+		texturefile = "gfx//interface//musicplayer/music_play_pause_button.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		noOfFrames = 2		
 	}	

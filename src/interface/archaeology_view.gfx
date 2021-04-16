@@ -29,10 +29,25 @@ spriteTypes = {
 		textureFile = "gfx/interface/archaeology/icon_difficultyRange.dds"
 		noOfFrames = 4
 	}
+	
+	spriteType = {
+		name = "GFX_archaeology_difficulty_easy"
+		textureFile = "gfx/interface/archaeology/icon_difficulty_archaeology_easy.dds"
+	}
 
 	spriteType = {
-		name = "GFX_difficulty_type"
-		textureFile = "gfx/interface/archaeology/icon_difficultySection_difficultyTypes.dds"
+		name = "GFX_archaeology_difficulty_normal"
+		textureFile = "gfx/interface/archaeology/icon_difficulty_archaeology_normal.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_archaeology_difficulty_hard"
+		textureFile = "gfx/interface/archaeology/icon_difficulty_archaeology_hard.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_archaeology_difficulty_hell"
+		textureFile = "gfx/interface/archaeology/icon_difficulty_archaeology_hell.dds"
 	}
 
 	spriteType = {

@@ -1,39 +1,34 @@
-﻿#Stellaris: Nemesis Game Team
+﻿#Stellaris: Nemesis 游戏团队
 --------
-##Creative Director
+##创意总监
 
 Henrik Fåhraeus
 
-##Game Director
+##游戏总监
 
 Daniel Moregård
 
-##Producers
+##制作人
 
 Aziz Faghihinejad
 Daniel Lagergren
 Elin Holmberg
-Olga Shcherbak
 
-##Designers
+##设计师
 
 Markus Veit
 Stephen Muray
 
-##Additional Design
-
-Jesper Blomqvist
-
-##Technical Leads
+##技术首席
 
 Gwenael Tranvouez
 Lorenzo Berni
 Rickard Lagerbäck
 
-##Programmers
+##程序
 
 Anton Södergren
-Filip Kirsek
+Filip Kiršek
 Gustav Palmqvist
 Ilya Nikitin
 Johan Melin
@@ -43,98 +38,87 @@ Oleg Istomin
 Tobias Luckey
 Ulrika Uddeborg
 
-##Additional Programming
+##辅助程序
 
-Daniel Bengtsson
-Marine Baghramyan
 Pierre du Plessis
-Peter Vestman
 
-##Content Design Leads
+##内容设计首席
 
 Henrik Thyrwall
 Maximilian Olbers
 
-##Content Designers
+##内容设计
 
 Douglas Furén
 Gemma Thomson
 Pierre du Plessis
 
-##Additional Content Design
-
-Byron Aytoun
-
-##UX Designers
+##用户体验设计
 
 Doyle Merlin Daigle II
 Valeska Martins
 
-##Additional UX Design
-
-Mikhail Gofman
-
-##Art Producers
+##艺术制作人
 
 Anton Wittberg Letoff
 Melinda Esponda Díaz
 
-##Art Lead
+##艺术首席
 
 Simon Gunnarsson
 
-##Concept Art
+##概念艺术
 
 Mattias Larsson
 Ylva Ljungqvist
 Ecbel Oueslati
 Alessandro Bragalini
 
-##UI Art
+##平面艺术
 
 Nicolas Lennman
 Jeremie Tauziede
 
-##3D Art
+##立体艺术
 
 Johan Lundqvist
 
-##Animation
+##动画
 
 Fabian Soon
 Hanna Johansson
 
-##VFX
+##视觉特效
 
 Erik Forsström
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Sound Designers
+##音效设计师
 
 David Schlein-Andersen
 Franco Freda
 Tobey Evans
 
-##External Partners
+##外部合作伙伴
 
-##Art
+##艺术
 
 N-iX Game & VR Studio
 Game Ace Studio
 
-##Embedded QA Lead
+##质量保障首席
 
 Joseph Gardener
 
-##Embedded QA Project Coordinator
+##项目协调人
 
 Fenni Johansson
 Rebecca Romin
 
-##Embedded QA
+##嵌入式质量保障
 
 Byron Aytoun
 Daniel Teige
@@ -142,41 +126,41 @@ Erik Elgerot
 Eva Mayer
 Struan McCallum
 
-##QA Central Team Lead
+##质量保障团队首席 - 中央
 
 Filippa Gannholm Kirsten
 
 ##QLOC
 
-##QA Team Leader
+##质量保障团队组长
 
 Adam Nowicki
 
-##Dedicated testers
+##专门化测试员
 
-Marek Bombala
+Marek Bombała
 Maciej Gutkowski
 Damian Szokalski
 
-##QA Testers (additional)
+##质量保障测试（辅助）
 
-Grzegorz Nowicki
+Grzegorz Nowick
 
 ##Keywords Studios Katowice
 
-##FQA Project Manager
+##功能性质量保障项目经理
 
 Marcin Jankowski
 
-##FQA Associate Lead
+##功能性质量保障助理首席
 
 Marcin Sebesta
 
-##FQA Senior Tester
+##功能性质量保障资深测试员
 
 Dawid Kolaczuch
 
-##FQA Testers
+##功能性质量保障测试员
 
 Mikolaj Bizacki
 Krzysztof Bochenek
@@ -187,7 +171,7 @@ Natalia Lechnata
 Mateusz Mierzwa
 Konrad Ruminski
 
-##Beta Testers
+##Beta 测试员
 
 Francesco Teruzzi
 Jonathan Bagley
@@ -197,126 +181,127 @@ Maik "Malthus" Wrba
 Marc Schmelzer
 Matthew Walsh
 Michael De Bona
+Maik "Malthus" Wrba
 Nina Chance
 Sergey Demidov
 
-##Product Manager
+##产品经理
 
 Simon Stackmann
 
-##Product Marketing Manager
+##产品营销经理
 
 Pontus Rundqvist
 
-##Performance Marketing Manager
+##绩效营销经理
 
 Michiel Van Loo
 
-##Creative Director of Marketing
+##营销创意总监
 
 Axel Ullberger
 
-##Marketing Creative Producer
+##营销创意制作人
 
 Oskar Petrén
 
-##Marketing Automation Specialists
+##自动化营销专家
 
 Johanna Kasurinen
 Karola Kiessling
 Annie Alström
 
-##Vice President Sales
+##销售副总裁
 
 Johan Bolin
 
-##Acting Team Lead - Partner Relations
+##合作伙伴关系主管
 
 Viktor Stadler
 
-##Partner Account Managers
+##伙伴账户经理
 
 James Gardiner
 Albert Banda
 Ebba Frantzén
 Daniel Hjelmtorp
 
-##Trade Marketing Manager
+##贸易营销经理
 
 Jackson Downing
 
-##Commercial Manager
+##商业经理
 
 Sofie Siggelin
 
-##Data Scientist
+##数据科学家
 
 Stephen White
 Eduarda Oliveira
 
-##User Researchers
+##用户研究
 
 Yinyi Luo
 
-##Community Developer
+##社区经理
 
 Ann-Charlotte Mörk
 
-##Influencer Relations Manager
+##影响者关系经理
 Jonathan Whitley
 
-##Community Ambassador
+##社区大使
 
 Graeme Crawford
 Matthew Freake
 
-##Customer Support
+##客户支持
 
 Christian Arvidsson
 Debbie Lane
 
-##Live Content
+##直播内容
 
 Jimmy Tisell
 Anders Carlsson
 
-##Public Relations
+##公共关系
 
 Nick Shepherd
 Michael Mason
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
-##Body Pillow Coordinator
+##抱枕协调人
 
 Mercedes Romero
 
-#Stellaris: Necroids Game Team
+#Stellaris: Necroids 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Daniel Moregård
 
-##Producer
+##制作人
 
 Aziz Faghihinejad
 
-##Designer
+##设计师
 
 Stephen Muray
 
-##Technical Leads
+##技术首席
 
 Gwenael Tranvouez
 Rickard Lagerbäck
 
-##Programmers
+##程序
 
 Gustav Palmqvist
 Ilya Nikitin
@@ -324,124 +309,124 @@ Lorenzo Berni
 Mathieu Ropert
 Ulrika Uddeborg
 
-##Additional Programming
+##辅助程序
 Anton Södergren
 Filip Kirsek
 Pierre du Plessis
 
-##Content Design Lead
+##内容设计首席
 
 Henrik Thyrwall
 
-##Content Designers
+##内容设计
 
 Douglas Furen
 Gemma Thomson
 Pierre du Plessis
 
-##UX Designer
+##用户体验设计
 
 Doyle Merlin Daigle II
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art and Audio Department Director
+##艺术与音声部门总监
 
 Adrian Banninga
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##Art Producers
+##艺术制作人
 
 Anton Wittberg Letoff
 Melinda Esponda Díaz
 
-##Art Lead
+##艺术首席
 
 Simon Gunnarsson
 
-##Concept Art
+##概念艺术
 
 Ahmed Albastaki
 Mattias Larsson
 Ylva Ljungqvist
 Ecbel Oueslati
 
-##2D Art
+##平面艺术
 
 Ylva Ljungqvist
 
-##3D Art
+##立体艺术
 
 Johan Lundqvist
 
-##Animation
+##动画
 
 Fabian Soon
 Niklas Tammpere
 
-##VFX
+##视觉特效
 
 Erik Forsström
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Sound Designers
+##音效设计师
 
 Franco Freda
 Gustav Landerholm
 
-##External Partners
+##外部合作伙伴
 
-##Art
+##艺术
 
 N-iX Game & VR Studio
 Ringtail Studios
 
-##Audio
+##音声
 
-##Voice Recording Studio
+##录音工作室
 
 Punch & Roll Studio
 
-##Necroid VO
+##Necroid 旁白
 
 Kate Fleetwood
 
-##Embedded QA
+##嵌入式质量保障
 
 Byron Aytoun
 Erik Elgerot
 Eva Mayer
 Markus Veit
 
-##QA Team Lead - Central
+##质量保障团队首席 - 中央
 
 Filippa Gannholm Kirsten
 
-##Project Coordinator
+##项目协调人
 
 Joseph Gardener
 
 ##QLOC
 
-## QA Team Leader
+## 质量保障团队组长
 
 Adam Nowicki
 
-## Dedicated testers
+## 专门化测试员
 
 Marek Bombala
 Maciej Gutkowski
 Damian Szokalski
 
-##QA Testers (additional)
+##质量保障测试（辅助）
 
 Ewa Angielska
 Sofiane Boukoffa
@@ -456,19 +441,19 @@ Damian Szokalski
 
 ##Keywords Studios Katowice
 
-##FQA Project Manager
+##功能性质量保障项目经理
 
 Marcin Jankowski
 
-##FQA Associate Lead
+##功能性质量保障助理首席
 
 Marcin Sebesta
 
-##FQA Senior Tester
+##功能性质量保障资深测试员
 
 Michal Sosnowski
 
-##FQA Testers
+##功能性质量保障测试员
 
 Mikolaj Bizacki
 Jacek Brzozowski
@@ -478,7 +463,7 @@ Stanislaw Skalski
 Michal Szczudlo
 Michal Wylag
 
-##Beta Testers
+##Beta 测试员
 
 Francesco Teruzzi
 Josh "Mordaith" Smith
@@ -486,100 +471,101 @@ Maik "Malthus" Wrba
 Marc Schmelzer
 Matthew Walsh
 Michael De Bona
+Maik "Malthus" Wrba
 Nina Chance
 
-##Product Manager
+##产品经理
 
 Simon Stackmann
 
-##Product Marketing Manager
+##产品营销经理
 
 Pontus Rundqvist
 
-##Performance Marketing Manager
+##绩效营销经理
 
 Michiel Van Loo
 
-##Creative Director of Marketing
+##营销创意总监
 
 Axel Ullberger
 
-##Marketing Creative Producer
+##营销创意制作人
 
 Oskar Petrén
 
-##Marketing Automation Specialists
+##自动化营销专家
 
 Johanna Kasurinen
 
-##Commercial Manager
+##商业经理
 
 Viktor Stadler
 
-##Trade Marketing Manager
+##贸易营销经理
 
 Jackson Downing
 
-##Data Scientist
+##数据科学家
 
 Stephen White
 
-##User Researchers
+##用户研究
 
 Yinyi Luo
 
-##Community Manager
+##社区经理
 
 Ann-Charlotte Mörk
 
-##Community Ambassador
+##社区大使
 
 Graeme Crawford
 Matthew Freake
 
-##Customer Support
+##客户支持
 
 Christian Arvidsson
 Debbie Lane
 
-##Live Content
+##直播内容
 
 Jimmy Tisell
 Anders Carlsson
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
-##Body Pillow Coordinator
+##抱枕协调人
 
 Mercedes Romero
 
-#Stellaris: Federations Game Team
+#Stellaris: Federations 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Daniel Moregård
 
-##Producers
+##制作人
 
 Aziz Faghihinejad
 Jamie Wood
 
-##Designer
+##设计师
 
 Stephen Muray
 
-##Technical Leads
+##技术首席
 
 Gwenael Tranvouez
 Rickard Lagerbäck
 
-##Programmers
+##程序
 
 Carl Carenvall
 Emelie Nordstrand Lindgren
@@ -590,11 +576,11 @@ Mathieu Ropert
 Ulrika Uddeborg
 Zack Holmgren
 
-##Content Design Lead
+##内容设计首席
 
 Henrik Thyrwall
 
-##Content Designers
+##内容设计
 
 David Ballantyne
 Douglas Furen
@@ -602,82 +588,82 @@ Gemma Thomson
 Miranda van den Brink
 Pierre du Plessis
 
-##UX Designer
+##用户体验设计
 
 Doyle Merlin Daigle II
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art and Audio Department Director
+##艺术与音声部门总监
 
 Adrian Banninga
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##Art Producers
+##艺术制作人
 
 Melinda Esponda Diaz
 Philipp Glietsch
 
-##Art Lead
+##艺术首席
 
 Simon Gunnarsson
 
-##Concept Art
+##概念艺术
 
 Mattias Larsson
 Ecbel Oueslati
 
-##2D Art
+##平面艺术
 
 Ahmed Albastaki
 Ylva Ljungqvist
 
-##3D Art
+##立体艺术
 
 Johan Lundqvist
 
-##Animation & Effects
+##动画 & 特效
 
 Erik Forsström
 Fabian Soon
 Niklas Tammpere
 
-##Additional Art
+##辅助艺术
 
 N-iX Game & VR Studio
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Senior Sound Designer
+##资深音效设计师
 
 Franco Freda
 
-##Composer
+##作曲
 
 Meyer
 
-##The Voice of VIR
+##VIR 配音
 
 Kola Krauze
 
-##Embedded QA
+##嵌入式质量保障
 
 Erik Elgerot
 Eva Mayer
 Markus Veit
 
-##QA Team Lead - Central
+##质量保障团队首席 - 中央
 
 Filippa Gannholm Kirsten
 
-##Project Coordinators
+##项目协调人
 
 William Riggott
 Anna Johansson
@@ -685,24 +671,24 @@ Joseph Gardener
 Nicholas Meredith
 Paul Depre
 
-##QA Testers
+##质量保障测试
 
 Joseph Gardener
 
 ##QLOC
 
-##QA Team Leaders
+##质量保障团队组长
 
 Adam Nowicki
 Kamil Uszynski
 
-##QA Testers (dedicated)
+##质量保障测试员（专门化）
 
 Maciej Gutkowski
 Stanislaw Szczerbik
 Marek Bombala
 
-##QA Testers (additional)
+##质量保障测试（辅助）
 
 Ewa Angielska
 Sofiane Boukoffa
@@ -717,16 +703,16 @@ Damian Szokalski
 
 ##Keywords Studios Katowice
 
-##FQA Project Manager
+##功能性质量保障项目经理
 
 Marcin Jankowski
 
-##Senior FQA Testers
+##资深功能性质量保障测试员
 
 Marcin Sebesta
 Grzegorz Dabrowski
 
-##FQA Testers
+##功能性质量保障测试员
 
 Adam Bialecki
 Mikolaj Bizacki
@@ -749,7 +735,7 @@ Antoni Student
 Maciej Stelmaszyk
 Michal Zawolek
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Thomas Boby
@@ -775,105 +761,105 @@ Matthew Walsh
 Maik Wrba
 Djordje Zivanovic
 
-##Product Manager
+##产品经理
 
 Simon Stackmann
 
-##Product Marketing Manager
+##产品营销经理
 
 Pontus Rundqvist
 
-##Performance Marketing Manager
+##绩效营销经理
 
 Michiel Van Loo
 
-##Creative Director of Marketing
+##营销创意总监
 
 Steven Wells
 
-##Marketing Creative Producer
+##营销创意制作人
 
 Marcus Herbertsson
 
-##Marketing Automation Specialists
+##自动化营销专家
 
 Alexander Nordkvist
 Johanna Kasurinen
 
-##Commercial Manager
+##商业经理
 
 Viktor Stadler
 
-##Trade Marketing Manager
+##贸易营销经理
 
 Jackson Downing
 
-##Data Scientist
+##数据科学家
 
 Kayle Sneed
 
-##User Researchers
+##用户研究
 
 Hanna Löhman
 Yinyi Luo
 
-##Community Developer
+##社区开发者
 
 Dale Emasiri
 
-##Community Manager
+##社区经理
 
 Ann-Charlotte Mörk
 
-##Community Ambassador
+##社区大使
 
 Graeme Crawford
 Krzysztof "Harlot" Biernat
 Matthew Freake
 
-##Customer Support
+##客户支持
 
 Christian Arvidsson
 Debbie Lane
 
-##Live Content
+##直播内容
 
 Jimmy Tisell
 Anders Carlsson
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
-##Body Pillow Coordinator
+##抱枕协调人
 
 Mercedes Romero
 
 
-#Stellaris: Lithoids Game Team
+#Stellaris: Lithoids 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Daniel Moregård
 
-##Producers
+##制作人
 
 Aziz Faghihinejad
 Jamie Wood
 
-##Designers
+##设计师
 
 Stephen Muray
 
-##Technical Lead
+##技术首席
 
 Gwenael Tranvouez
 
-##Programmers
+##程序
 
 Carl Carenvall
 Zack Holmgren
@@ -881,11 +867,11 @@ Emelie Nordstrand Lindgren
 Ilya Nikitin
 Gustav Palmqvist
 
-##Content Design Lead
+##内容设计首席
 
 Henrik Thyrwall
 
-##Content Designers
+##内容设计
 
 David Ballantyne
 Miranda van den Brink
@@ -893,92 +879,92 @@ Douglas Furen
 Dee Majek
 Gemma Thomson
 
-##UX Designer
+##用户体验设计
 
 Doyle Merlin Daigle II
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art Manager
+##艺术经理
 
 Adrian Banninga
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##Art Producers
+##艺术制作人
 
 Melinda Esponda Diaz
 Philipp Glietsch
 
-##2D Art
+##平面艺术
 
 Simon Gunnarsson
 Mattias Larsson
 Ylva Ljungqvist
 Ecbel Oueslati
 
-##3D Art
+##立体艺术
 
 Johan Lundqvist
 
-##Additional Art
+##辅助艺术
 
 N-iX
 
-##Animation & Effects
+##动画 & 特效
 
 Erik Forsström
 Fabian Soon
 Niklas Tammpere
 
-##Verification Manager
+##验证经理
 
 Andreas Renström
 
-##QA Managers
+##质量保障经理
 
 Felix Gladitz
 Tegan Harris
 
-##QA Team Lead - Central
+##质量保障团队首席 - 中央
 
 Filippa Gannholm Kirsten
 
-##Embedded QA
+##嵌入式质量保障
 
 Eva Mayer
 Markus Veit
 
-##Project Coordinator
+##项目协调人
 
 Anna Johansson
 Nicholas Meredith
 
-##QA Testers
+##质量保障测试
 
 Paul Depre
 Joseph Gardener
 Jesper Norberg
 William Riggott
 
-##QLOC QA Project Manager
+##QLOC 质量保障项目经理
 
 Maciej Grabowski
 
-## QLOC QA Team Leaders
+## QLOC 质量保障团队组长
 
 Adam Nowicki
 
-## QLOC QA Testers (Dedicated)
+## QLOC 质量保障测试员（专门化）
 
 Maciej Gutkowski
 Stanislaw Szczerbik
 
-## QLOC QA Testers (Additional)
+## QLOC 质量保障测试员（辅助）
 
 Bartlomiej Beton
 Arash Golzad
@@ -987,23 +973,23 @@ Mateusz Soja
 Piotr Spychala
 Lukasz Rembisz
   
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Senior Sound Designer
+##资深音效设计师
 
 Franco Freda
 
-##Composer
+##作曲
 
 Meyer
 
-##The Voice of VIR
+##VIR 配音
 
 Kola Krauze
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Thomas Boby
@@ -1028,83 +1014,83 @@ Matthew Walsh
 Maik Wrba
 Djordje Zivanovic
 
-##Product Manager
+##产品经理
 
 Simon Stackmann
 
-##Product Marketing Manager
+##产品营销经理
 
 Pontus Rundqvist
 
-##Performance Marketing Manager
+##绩效营销经理
 
 Rania Samara
 
-##Creative Director of Marketing
+##营销创意总监
 
 Steven Wells
 
-##Marketing Automation Specialist
+##自动化营销专家
 
 Alexander Nordkvist
 
-##Commercial Manager
+##商业经理
 
 Viktor Stadler
 
-##Data Scientist
+##数据科学家
 
 Kayle Sneed
 
-##User Researchers
+##用户研究
 
 Henrik Edlund
 Hanna Löhman
 
-##Community Developer
+##社区开发者
 
 Dale Emasiri
 
-##Customer Suppor
+##客户支持
 
 Christian Arvidsson
 Debbie Lane
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
-##Body Pillow Coordinator
+##抱枕协调人
 
 Mercedes Romero
 
 
-#Stellaris: Ancient Relics Game Team
+#Stellaris: Ancient Relics 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Daniel Moregård
 
-##Producers
+##制作人
 
 Aziz Faghihinejad
 Jamie Wood
 
-##Designers
+##设计师
 
 Mikael Andersson
 Stephen Muray
 Markus Veit
 
-##Technical Lead
+##技术首席
 
 Gwenael Tranvouez
 
-##Programmers
+##程序
 
 Carl Carenvall
 Zack Holmgren
@@ -1113,11 +1099,11 @@ Ilya Nikitin
 Gustav Palmqvist
 Evan Wu
 
-##Content Design Lead
+##内容设计首席
 
 Henrik Thyrwall
 
-##Content Designers
+##内容设计
 
 David Ballantyne
 Miranda van den Brink
@@ -1126,71 +1112,71 @@ Dee Majek
 Maximilian Olbers
 Rufus Tronde
 
-##Additional Writing
+##辅助写作
 
 Jamie Wood
 
-##UX Designer
+##用户体验设计
 
 Doyle Merlin Daigle II
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art Manager
+##艺术经理
 
 Adrian Banninga
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##Art Producer
+##艺术制作人
 
 Philipp Glietsch
 
-##2D Art
+##平面艺术
 
 Simon Gunnarsson
 Ylva Ljungqvist
 
-##3D Art
+##立体艺术
 
 Johan Lundqvist
 
-##Additional Art
+##辅助艺术
 
 N-iX
 
-##Animation & Effects
+##动画 & 特效
 
 Ylva Ljungqvist
 
-##Verification Manager
+##验证经理
 
 Andreas Renström
 
-##QA Managers
+##质量保障经理
 
 Felix Gladitz
 Tegan Harris
 
-##QA Team Lead - Central
+##质量保障团队首席 - 中央
 
 Filippa Gannholm Kirsten
 
-##Embedded QA
+##嵌入式质量保障
 
 Eva Mayer
 Markus Veit
 
-##Project Coordinators
+##项目协调人
 
 Anna Johansson
 William Riggott
 
-##QA Testers
+##质量保障测试
 
 Ewan Cowhig Croft
 Paul Depre
@@ -1200,23 +1186,23 @@ Jesper Norberg
 Nicholas Meredith
 William Riggott
 
-##QLOC QA Project Manager
+##QLOC 质量保障项目经理
 
 Maciej Grabowski
 
-## QLOC QA Team Leaders
+## QLOC 质量保障团队组长
 
 Justyna Janicka
 Marcin Jankowski
 Grzegorz Niedziela
 
-## QLOC QA Testers (Dedicated)
+## QLOC 质量保障测试员（专门化）
 
 Maciej Gutkowski
 Olga Kowaluk
 Jedrzej Korpak
 
-## QLOC QA Testers (Additional)
+## QLOC 质量保障测试员（辅助）
 
 Jozef Brzostek
 Bartlomiej Hajdyla
@@ -1237,23 +1223,23 @@ Stanislaw Szczerbik
 Gabriel Urban
 Bartlomiej Wyciszkiewicz
   
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Senior Sound Designer
+##资深音效设计师
 
 Franco Freda
 
-##Composer
+##作曲
 
 Meyer
 
-##The Voice of VIR
+##VIR 配音
 
 Kola Krauze
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Philip Curtis
@@ -1272,70 +1258,70 @@ Matthew Walsh
 Maik Wrba
 Djordje Zivanovic
 
-With special thanks to Glavius for valued contributions in AI
+特别感谢 Glavius 对 AI 方面的贡献
 
-##Product Owner
+##产品拥有人
 
 Bevan Davies
 
-##Product Marketing Managers
+##产品营销经理
 
 Sebastian Forsström
 Pontus Rundqvist
 
-##Partner Account Manager
+##伙伴账户经理
 
 Fang Chen
 
-##Analytics
+##分析
 
 Kayle Sneed
 
-##User Researchers
+##用户研究
 
 Henrik Edlund
 Hanna Löhman
 Jean-Luc Potte
 
-##Community Manager
+##社区经理
 
 Dale Emasiri
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
-##Body Pillow Coordinator
+##抱枕协调人
 
 Mercedes Romero
 
 
-#Stellaris: MegaCorp Game Team
+#Stellaris: MegaCorp 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Martin Anward
 
-##Producers
+##制作人
 
 Aziz Faghihinejad
 Jamie Wood
 
-##Designers
+##设计师
 
 Martin Anward
 Daniel Moregård
 Markus Veit
 
-##Technical Lead
+##技术首席
 
 Gwenael Tranvouez
 
-##Programmers
+##程序
 
 Carl Carenvall
 Zack Holmgren
@@ -1345,7 +1331,7 @@ Gustav Palmqvist
 Lysann Schlegel
 Magne Skjæran
 
-##Content Designers
+##内容设计
 
 David Ballantyne
 Miranda van den Brink
@@ -1353,55 +1339,55 @@ Dee Majek
 Maximilian Olbers
 Henrik Thyrwall
 
-##UX Designer
+##用户体验设计
 
 Tomas Friberg
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art Manager
+##艺术经理
 
 Adrian Banninga
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##2D Art
+##平面艺术
 
 Simon Gunnarsson
 Ylva Ljungqvist
 
-##3D Art
+##立体艺术
 
 Johan Lundqvist
 
-##Additional Art
+##辅助艺术
 
 Mattias Larsson
 Flavio Verna
 N-iX
 
-##Animation & Effects
+##动画 & 特效
 
 Niklas Tammpere
 
-##QA Manager
+##质量保障经理
 
 Felix Gladitz
 
-##QA Team Lead - Central
+##质量保障团队首席 - 中央
 
 Filippa Gannholm Kirsten
 
-##Embedded QA
+##嵌入式质量保障
 
 Eva Mayer
 Markus Veit
 
-##QA Testers
+##质量保障测试
 
 Ewan Cowhig Croft
 Joseph Gardener
@@ -1413,23 +1399,23 @@ William Riggott
 Albin Wallin
 Andreas Witzén
 
-##QLOC QA Project Manager
+##QLOC 质量保障项目经理
 
 Maciej Grabowski
 
-## QLOC QA Team Leaders
+## QLOC 质量保障团队组长
 
 Justyna Janicka
 Marcin Jankowski
 Grzegorz Niedziela
 
-## QLOC QA Testers (Dedicated)
+## QLOC 质量保障测试员（专门化）
 
 Maciej Gutkowski
 Jedrzej Korpak
 Olga Kowaluk
 
-## QLOC QA Testers (Additional)
+## QLOC 质量保障测试员（辅助）
 
 Ewa Angielska
 Maciej Bartnik
@@ -1450,51 +1436,51 @@ Maksymilian Szczepanczyk
 Stanislaw Szczerbik
 Gabriel Urban
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Senior Sound Designer
+##资深音效设计师
 
 Franco Freda
 
-##Sound Designer
+##音效设计师
 
 David Schlein-Andersen
 
-##Composer
+##作曲
 
 Meyer
 
-##Voice Recording Studio
+##录音工作室
 
 SIDE UK
 
-##VO Project Manager
+##旁白项目经理
 
 Craig Holanhan
 
-##VO Director
+##旁白总监
 
 Kate Saxon
 
-##The Worker
+##工人
 
 Kola Krauze
 
-##Slick Corporation
+##圆滑的企业
 
 Christina Cole
 
-##Ruthless Conglomerate
+##冷酷无情的集团
 
 Eric Meyers
 
-##The Voice of VIR
+##VIR 配音
 
 Kola Krauze
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Philip Curtis
@@ -1511,66 +1497,66 @@ Francesco Teruzzi
 Matthew Walsh
 Djordje Zivanovic
 
-##Product Owner
+##产品拥有人
 
 Bevan Davies
 
-##Product Marketing Manager
+##产品营销经理
 
 Sebastian Forsström
 
-##Partner Account Manager
+##伙伴账户经理
 
 Fang Chen
 
-##Analytics
+##分析
 
 Kayle Sneed
 
-##User Researchers
+##用户研究
 
 Henrik Edlund
 Hanna Löhman
 Jean-Luc Potte
 
-##Community Manager
+##社区经理
 
 Dale Emasiri
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
-##Body Pillow Coordinator
+##抱枕协调人
 
 Mercedes Romero
 
 
-#Stellaris: Distant Stars Game Team
+#Stellaris: Distant Stars 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Martin Anward
 
-##Project Leads
+##项目组长
 
 Aziz Faghihinejad
 Jamie Wood
 
-##Designers
+##设计师
 
 Martin Anward
 Daniel Moregård
 
-##Technical Lead
+##技术首席
 
 Gwenael Tranvouez
 
-##Programmers
+##程序
 
 Carl Carenvall
 Hampus Liljekvist
@@ -1579,7 +1565,7 @@ Ilya Nikitin
 Gustav Palmqvist
 Lysann Schlegel
 
-##Content Designers
+##内容设计
 
 Miranda van den Brink
 Linus Dilén
@@ -1587,60 +1573,60 @@ Henrik Eklund
 Dee Majek
 Maximilian Olbers
 
-##UX Designer
+##用户体验设计
 
 Tomas Friberg
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art Manager
+##艺术经理
 
 Adrian Banninga
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##2D Art
+##平面艺术
 
 Simon Gunnarsson
 Ylva Ljungqvist
 
-##3D Art
+##立体艺术
 
 Johan Lundqvist
 
-##Additional Art
+##辅助艺术
 
 Emma Jonsson
 N-iX
 
-##Animation & Effects
+##动画 & 特效
 
 Niklas Tammpere
 
-##QA Manager
+##质量保障经理
 
 Felix Gladitz
 
-##QA Team Lead - Central
+##质量保障团队首席 - 中央
 
 Filippa Gannholm
 
-##Embedded QA
+##嵌入式质量保障
 
 Sebastian Borg
 Aziz Faghihinejad
 Eva Mayer
 Markus Veit
 
-##Community QA
+##社区质量保障
 
 Carsten 't Mannetje
 
-##QA Testers
+##质量保障测试
 
 Linus Dilén
 Joshua Evans
@@ -1654,16 +1640,16 @@ Daniel Sjöberg
 Daniel Teige
 Albin Wallin
 
-##QLOC QA Project Manager
+##QLOC 质量保障项目经理
 
 Maciej Grabowski
 
-## QLOC QA Team Leaders
+## QLOC 质量保障团队组长
 
 Karolina Jagnyziak
 Marcin Jankowski
 
-## QLOC QA Testers (Core)
+## QLOC 质量保障测试员（核心）
 
 Bartosz Maciejewski
 Oskar Nowak
@@ -1672,7 +1658,7 @@ Jan Starosz
 Maksymilian Szczepanczyk
 Gabriel Urban
 
-## QLOC QA Testers (Additional)
+## QLOC 质量保障测试员（辅助）
 
 Abel Perez Abalde
 Sofiane Boukoffa
@@ -1681,23 +1667,23 @@ Tomasz Lisek
 Jakub Potapczyk
 Michal Wagrocki
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Senior Sound Designer
+##资深音效设计师
 
 Franco Freda
 
-##Composer
+##作曲
 
 Meyer
 
-##The Voice of VIR
+##VIR 配音
 
 Kola Krauze
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Philip Curtis
@@ -1714,39 +1700,39 @@ Francesco Teruzzi
 Matthew Walsh
 Djordje Zivanovic
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
-##Body Pillow Coordinator
+##抱枕协调人
 
 Mercedes Romero
 
 
-#Stellaris: Apocalypse Game Team
+#Stellaris: Apocalypse 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Martin Anward
 
-##Project Lead
+##项目组长
 
 Jamie Wood
 
-##Designers
+##设计师
 
 Martin Anward
 Daniel Moregård
 
-##Technical Lead
+##技术首席
 
 Gwenael Tranvouez
 
-##Programmers
+##程序
 
 Carl Carenvall
 Daniel Eriksson
@@ -1755,44 +1741,44 @@ Emelie Nordstrand Lindgren
 Gustav Palmqvist
 Lysann Schlegel
 
-##Content Designers
+##内容设计
 
 Miranda van den Brink
 Henrik Eklund
 Dee Majek
 Maximilian Olbers
 
-##UX Designer
+##用户体验设计
 
 Tomas Friberg
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art Coordinator
+##艺术协调人
 
 Pernilla Sparrhult
 
-##Art Manager
+##艺术经理
 
 Adrian Banninga
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##2D Art
+##平面艺术
 
 Simon Gunnarsson
 Pontus Olofsson
 
-##3D Art
+##立体艺术
 
 Joacim Carlberg
 Johan Lundqvist
 
-##Additional Art
+##辅助艺术
 
 Helena Kasper
 Timor Khanagov
@@ -1800,29 +1786,29 @@ Ylva Ljungqvist
 N-iX
 Room 8 Studio
 
-##Animation & Effects
+##动画 & 特效
 
 Niklas Tammpere
 
-##QA Manager
+##质量保障经理
 
 Felix Gladitz
 
-##QA Team Lead - Central
+##质量保障团队首席 - 中央
 
 Filippa Gannholm
 
-##Embedded QA
+##嵌入式质量保障
 
 Sebastian Borg
 Aziz Faghihinejad
 Markus Veit
 
-##Community QA
+##社区质量保障
 
 Carsten 't Mannetje
 
-##QA Testers
+##质量保障测试
 
 Matthew Frary
 Joseph Gardener
@@ -1834,12 +1820,12 @@ William Riggott
 Daniel Sjöberg
 Albin Wallin
 
-## QLOC QA Team Leaders
+## QLOC 质量保障团队组长
 
 Karolina Jagnyziak
 Marcin Jankowski
 
-## QLOC QA Testers (Core)
+## QLOC 质量保障测试员（核心）
 
 Bartosz Maciejewski
 Oskar Nowak
@@ -1848,33 +1834,33 @@ Jan Starosz
 Maksymilian Szczepanczyk
 Gabriel Urban
 
-## QLOC QA Testers (Additional)
+## QLOC 质量保障测试员（辅助）
 
 Abel Perez Abalde
 Sofiane Boukoffa
 Michal Wagrocki
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Senior Sound Designer
+##资深音效设计师
 
 Franco Freda
 
-#Sound Designer
+#音效设计
 
 David Schlein-Andersen
 
-##Composer
+##作曲
 
 Andreas Waldetoft
 
-##The Voice of VIR
+##VIR 配音
 
 Kola Krauze
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Lukasz Delra
@@ -1887,105 +1873,105 @@ Francesco Teruzzi
 Matthew Walsh
 Djordje Zivanovic
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
 
-#Stellaris: Humanoids Species Pack Game Team
+#Stellaris: Humanoids Species Pack 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Martin Anward
 
-##Project Leads
+##项目组长
 
 Kristian Laustsen
 Jamie Wood
 
-##Designers
+##设计师
 
 Martin Anward
 Daniel Moregård
 
-##Technical Lead
+##技术首席
 
 Gwenael Tranvouez
 
-##Programmers
+##程序
 
 Hampus Liljekvist
 Emelie Nordstrand Lindgren
 Gustav Palmqvist
 Lysann Schlegel
 
-##Additional Programming
+##辅助程序
 
 Mikael Berg
 Hans Rönnbäck
 
-##Content Designers
+##内容设计
 
 Miranda van den Brink
 Henrik Eklund
 Dee Majek
 Maximilian Olbers
 
-##UX Designer
+##用户体验设计
 
 Tomas Friberg
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art Coordinator
+##艺术协调人
 
 Pernilla Sparrhult
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##2D Art
+##平面艺术
 
 Simon Gunnarsson
 Pontus Olofsson
 
-##3D Art
+##立体艺术
 
 Joacim Carlberg
 Johan Lundqvist
 
-##Additional Art
+##辅助艺术
 
 Timor Khanagov
 N-iX
 
-##Animation & Effects
+##动画 & 特效
 
 Niklas Tammpere
 
-##QA Managers
+##质量保障经理
 
 Filippa Gannholm
 Felix Gladitz
 
-##Embedded QA
+##嵌入式质量保障
 
 Sebastian Borg
 Aziz Faghihinejad
 Markus Veit
 
-##Community QA
+##社区质量保障
 
 Carsten 't Mannetje
 
-##QA Testers
+##质量保障测试
 
 Sebastian Borg
 Matthew Frary
@@ -1996,9 +1982,9 @@ Jesper Norberg
 Daniel Sjöberg
 Albin Wallin
 
-##Additional QA - QLOC
+##辅助质量保障 - QLOC
 
-Team Leader - Marcin Jankowski
+团队组长 - Marcin Jankowski
 Bartosz Maciejewski
 Oskar Nowak
 Uros Rudolf
@@ -2006,33 +1992,33 @@ Jan Starosz
 Maksymilian Szczepanczyk
 Gabriel Urban
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Composer
+##作曲
 
 Andreas Waldetoft
 
-##Remix Artist
+##混音艺术家
 
 Meyer
 
-##Voice Recording Studio
+##录音工作室
 
 Red Pipe Studios
 
-##Sound Engineer
+##音效工程师
 
 Robert Eklund
 
-##Alternate VIR Voice Actors
+##替代 VIR 配音演员
 
-The Diplomat - Bernadette O'Neill
-The Soldier - Talya Pulver-Lindqvist
-The Technocrat - Alan Adler
+外交官 - Bernadette O'Neill
+士兵 - Talya Pulver-Lindqvist
+技术官僚 - Alan Adler
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Lukasz Delra
@@ -2045,32 +2031,32 @@ Francesco Teruzzi
 Matthew Walsh
 Djordje Zivanovic
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
 
-#Stellaris: Synthetic Dawn Game Team
+#Stellaris: Synthetic Dawn 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 
 Johan Andersson
 
-##Game Director
+##游戏总监
 
 Martin Anward
 
-##Project Leads
+##项目组长
 
 Kristian Laustsen
 Jamie Wood
 
-##Designers
+##设计师
 
 Martin Anward
 Daniel Moregård
 
-##Programmers
+##程序
 
 Daniel Eriksson
 Hampus Liljekvist
@@ -2078,70 +2064,70 @@ Gustav Palmqvist
 Lysann Schlegel
 Gwenael Tranvouez
 
-##Additional Programming
+##辅助程序
 
 Mikael Berg
 Hans Rönnbäck
 
-##Content Designers
+##内容设计
 
 Miranda van den Brink
 Henrik Eklund
 Dee Majek
 Maximilian Olbers
 
-##UX Designer
+##用户体验设计
 
 Tomas Friberg
 
-##Localization Manager
+##本地化经理
 
 Sara Wendel-Örtqvist
 
-##Art Coordinator
+##艺术协调人
 
 Pernilla Sparrhult
 
-##Art Director
+##艺术总监
 
 Fredrik Toll
 
-##2D Art
+##平面艺术
 
 Simon Gunnarsson
 Pontus Olofsson
 
-##3D Art
+##立体艺术
 
 Joacim Carlberg
 Helena Kasper
 Johan Lundqvist
 
-##Additional Art
+##辅助艺术
 
 Timor Khanagov
 Room 8 Studio
 
-##Animation & Effects
+##动画 & 特效
 
 Niklas Tammpere
 
-##QA Managers
+##质量保障经理
 
 Filippa Gannholm
 Felix Gladitz
 
-##Embedded QA
+##嵌入式质量保障
 
 Sebastian Borg
 Aziz Faghihinejad
 Markus Veit
 
-##Community QA
+##社区质量保障
 
 Carsten 't Mannetje
 
-##QA Testers
+##质量保障测试
 
 Sebastian Borg
 Matthew Frary
@@ -2152,40 +2138,40 @@ Jesper Norberg
 Daniel Sjöberg
 Albin Wallin
 
-##Audio Director
+##音声总监
 
 Björn Iversen
 
-##Composer
+##作曲
 
 Andreas Waldetoft
 
-##Additional Sound Design
+##辅助音效设计
 
 David Schlein-Andersen
 
-##Recording Studio
+##录音工作室
 
 Red Pipe Studios
 
-##Sound Engineer
+##音效工程师
 
 Kim Creutzer
 
-##Alternate VIR Voice Actors
+##替代 VIR 配音演员
 
-Authoritarian VIR - Antony Hartley
-Egalitarian VIR - David Bradish
-Hive Mind VIR - The Paradox Hive Mind
-Militarist VIR - Bernadette O'Neill
-Pacifist VIR - Jessica Calmhede
-Spiritualist VIR - Erika Moldenhauer
-Xenophile VIR - Noha Mousbah
-Xenophobe VIR - John Power
-Materalist VIR - Josh Lenn
-Machine Intelligence VIR - Bryan McAllister
+威权主义 VIR - Antony Hartley
+平等主义 VIR - David Bradish
+蜂巢思维 VIR - The Paradox Hive Mind
+军国主义 VIR - Bernadette O'Neill
+和平主义 VIR - Jessica Calmhede
+唯心主义 VIR - Erika Moldenhauer
+亲外主义 VIR - Noha Mousbah
+排外主义 VIR - John Power
+唯物主义 VIR - Josh Lenn
+机械智能 VIR - Bryan McAllister
 
-##Beta Testers
+##Beta 测试员
 
 George Bancroft
 Lukasz Delra
@@ -2198,72 +2184,291 @@ Francesco Teruzzi
 Matthew Walsh
 Djordje Zivanovic
 
-##Chief Dad Joke Officer
+##首席“双关”工作人员
 
 Rikard The Pun-isher
 
 
-#Paradox Stellaris Game Team
+#Stellaris: Utopia 游戏团队
 --------
-##EVP Creative Direction
+##EVP 创意总监
 Johan Andersson
 
-##Game Director
-Henrik Fåhraeus
+##游戏总监
+Martin Anward
 
-##Project Lead
+##项目组长
+Rikard Åslund
+Jamie Wood
+
+##设计师
+Martin Anward
+Daniel Moregård
+
+##程序
+Mehrnaz Amanat Bari
+Daniel Eriksson
+Hampus Liljekvist
+Gustav Palmqvist
+Lysann Schlegel
+
+##辅助程序
+Rikard Åslund
+Alexander Ivannikov
+
+##内容设计
+Henrik Eklund
+Drikus Kuiper
+Maximilian Olbers
+Miranda van den Brink
+
+##本地化经理
+Sara Wendel-Örtqvist
+
+##艺术协调人
+Pernilla Sparrhult
+
+##艺术总监
+Fredrik Toll
+
+##平面艺术
+Simon Gunnarsson
+Pontus Olofsson
+
+##立体艺术
+Joacim Carlberg
+Helena Kasper
+Johan Lundqvist
+
+##辅助艺术
+Kentaro Kanamoto
+Room 8 Studio
+
+##动画 & 特效
+Niklas Tammpere
+
+##质量保障经理
+Filippa Gannholm
+Felix Gladitz
+
+##嵌入式质量保障
+Aziz Faghihinejad
+Markus Veit
+Leo Larsson
+Peter Skager
+
+##社区质量保障
+Carsten 't Mannetje
+
+##质量保障测试
+Niall Bird
+Sebastian Borg
+Markus Grebe
+Katya Magnusson
+Daniel Moore
+Jesper Norberg
+Daniel Sjöberg
+Emil Tisander
+Albin Wallin
+
+##音声总监
+Björn Iversen
+
+##作曲
+Andreas Waldetoft
+
+##辅助音效设计
+David Schlein-Andersen
+
+##Beta 测试员
+George Bancroft
+Lukasz Delra
+Mikael Hagman
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Djordje Zivanovic
+
+
+# Stellaris: Leviathans / Horizon Signal 游戏团队
+--------
+##EVP 创意总监
+Johan Andersson
+
+##游戏总监
+Martin Anward
+
+##项目组长
 Rikard Åslund
 
-##Producer
+##设计师
+Martin Anward
+Daniel Moregård
+
+##辅助设计
+Henrik Fåhraeus
+
+##客座作家
+Alexis Kennedy （视界信号）
+
+##程序
+Daniel Eriksson
+Alexander Ivannikov
+Mehrnaz Amanat Bari
+Joakim Bennedich
+Hampus Liljekvist
+
+##内容设计
+Maximilian Olbers
+Niclas Karlsson
+Rufus Tronde
+Henrik Eklund
+Miranda van den Brink
+
+##本地化经理
+Sara Wendel-Örtqvist
+
+##用户 Mod 协调人
+Joel Hansson
+Niklas Strid
+
+##艺术协调人
+Pernilla Sparrhult
+
+##艺术总监
+Fredrik Toll
+
+##平面美工
+Simon Gunnarsson
+Jonas Jakobsson
+Frida Eriksson
+
+##立体美工
+Helena Kasper
+Joacim Carlberg
+Johan Lundqvist
+
+##动画 & 特效
+Niklas Tammpere
+
+##概念美工
+Ylva Ljungqvist
+
+##质量保障经理
+Mario Lasan
+
+##嵌入式质量保障
+Aziz Faghihinejad
+Leo Larsson
+
+##社区质量保障
+Carsten 't Mannetje
+
+##质量保障测试
+Albin Wallin
+Arthur Bialecki
+Carmille Gidfors
+Daniel Sjöberg
+Jesper Norberg
+Malin Jakobsson
+Markus Grebe
+Olga Koter
+Patric Lindbergh
+Peter Skager
+Sebastian Borg
+
+##音声总监
+Björn Iversen
+
+##作曲
+Andreas Waldetoft
+
+##辅助音效设计
+David Schlein-Andersen
+
+##Beta 测试员
+Mark Charters
+Lukasz Damentko
+Dylan Anthony Skoda
+Cathrine Zangerl
+Michael Aaron Hoselton
+Jeroen Elfrink
+Christopher Kenneth O'Keefe
+Kamil Kowalczyk
+Erik Brian Olmstead
+Them Bo Bojesen Jensen
+Peter Deadman
+Richard Williams
+David Lockwood
+Edward Earl Chaney II
+Pablo Agustín Eralio
+Mitchell Alexander Cumming
+
+
+#Paradox Stellaris 游戏团队
+--------
+##EVP 创意总监
+Johan Andersson
+
+##游戏总监
+Henrik Fåhraeus
+
+##项目组长
+Rikard Åslund
+
+##制作人
 Anna Norrevik
 
-##Designers
+##设计师
 Henrik Fåhraeus
 Joakim Andreasson
 Daniel Moregård
 
-##Additional Designers
+##辅助设计师
 Johan Andersson
 
-##Programmers
+##程序
 Daniel Eriksson
 Alexander Ivannikov
 Mehrnaz Amanat Bari
 Rikard Åslund
 Joakim Bennedich
 
-##Additional Programmers
+##辅助程序
 Johan Lerström
 Jonas Wickerström
 Martin Anward
 Mohammed Al-Sader
 Niklas Strid
 
-##Lead Content Designer
+##内容设计首席
 Henrik Eklund
 
-##Content Designers
+##内容设计
 Maximilian Olbers
 Niclas Karlsson
 David Ballantyne
 Rufus Tronde
 
-##Art Director
+##艺术总监
 Fredrik Toll
 
-##Artists 2D
+##平面美工
 Aline Gladh
 Simon Gunnarsson
 Jonas Jakobsson
 Jenny Holmer
 
-##Concept Artist
+##概念美工
 Erik Nilsson
 
-##Cover Artist
+##封面美工
 Aline Gladh
 
-##Additional Artists 2D
+##辅助平面美工
 Frida Eriksson
 Anton Hultdin
 Johan Lundqvist
@@ -2271,7 +2476,7 @@ Pontus Olofsson
 Timor Khanagov
 Carlos Lundhall
 
-##Artists 3D
+##立体美工
 Joakim Larsen
 Markus Krantz
 Viktor Nyström
@@ -2283,20 +2488,20 @@ Staffan Norling
 Marcus Persson
 Fredrik Toll
 
-##Animators
+##动画师
 Niklas Tammpere
 Nancy Lai
 
-##Additional Animators
+##辅助动画师
 Patrick Kling
 
-##Embedded QA
+##嵌入式质量保障
 Olga Koter
 Aziz Faghihinejad
 Leo Larsson
 Karim Muammar
 
-##QA
+##质量保障
 Peter Skager
 Daniel Sjöberg
 Daniel Olsson
@@ -2305,88 +2510,88 @@ Malin Jakobsson
 Rufus Magnusson
 Carsten t'Mannetje
 
-##Additional QA
+##辅助质量保障
 Alexander Lundström
 
-##Audio Director
+##音声总监
 Björn Iversen
 
-##Composer
+##作曲
 Andreas Waldetoft
 
-##Voice Actor
+##配音演员
 Kola Krauze
 
-##Additional Sound Designer
+##辅助音效设计师
 Martin Skogehall
 
-##Interface Designer
+##界面设计师
 Daniel Moregård
 
-##Manual
+##指南
 Troy Goodfellow
 
 
 #Paradox Development Studio
 --------
-##EVP Studios
+##EVP 工作室
 Mattias Lilja
 
-##VP Development
+##开发副总裁
 Thomas Johansson
 
-##Executive Producer
+##执行制作人
 Linda Kiby
 
-##Producer
+##制作人
 Anna Norrevik
 
-##Associate Producer/Editor/Localisation Manager
+##制作人/编辑/本地化助理经理
 Sara Wendel-Örtqvist
 
-##DLC Manager
+##DLC 经理
 Pernilla Sparrhult
 
-##Wiki Creator and Curator
+##Wiki 创建者和智库人员
 Magne Skjæran
 
-##Technical Scripters
+##技术脚本
 Niklas Strid
 Joel Hansson
 
-##Technical Director
+##技术总监
 Fredrik Zetterman
 
-##Acting Engine Lead
+##动作引擎首席
 John Wordsworth
 
-##Programmer Manager
+##程序经理
 Olof Björk
 
-##Engine Programmers
+##引擎程序
 Marcus Beausang
 John Wordsworth
 Rickard Nyberg
 
-##Build Engineer
+##架构工程师
 Per Hasselström
 
-##Tools Programmer
+##工具程序
 Johan Yngman
 
-##3D Art Manager
+##立体艺术经理
 Fredrik Toll
 
-##2D Art Manager
+##平面艺术经理
 Pontus Olofsson
 
-##Script Manager
+##脚本经理
 Tobias Bodlund
 
-##QA Manager
+##质量保障经理
 Mario Lasan
 
-##QA
+##质量保障
 Filippa Gannholm
 Zeke Lugmair
 Jake Leiper-Ritchie
@@ -2394,17 +2599,17 @@ Jesper Norberg
 Alexander Oltner
 Emil Tisander
 
-##Community Manager
+##社区经理
 Björn Blomberg
 
-##Engine Team
+##引擎团队
 John Wordsworth
 Marcus Beausang
 Per Hasselström
 Johan Yngman
 Richard Nyberg
 
-##Content Designers
+##内容设计
 Jakob Have
 Marcus Olsen
 Henrik Lohmander
@@ -2412,7 +2617,7 @@ Mathilda Bjarnehed
 Camilla Isaksson
 Petter Vilberg
 
-##Programmers
+##程序
 Henrik Hansson
 Jimmy Rönn
 Ilya Nikitin
@@ -2425,118 +2630,118 @@ Martin Hesselborn
 Rickard Lagerbäck
 Petter Hansson
 
-##Artists
+##美工
 Staffan Norling
 Mats Virtanen 
 Bjarne Hallberg
 
-##Designers
+##设计师
 Chris King
 Dan Lind
 
-##Project Leads
+##项目组长
 Anna Norrevik
 Martin Anward
 
 
-#Paradox Stellaris Team
+#Paradox Stellaris 团队
 --------
-##Brand Management
+##品牌管理
 Tomas Härenstam
 
-##Marketing
+##营销
 Steven K Wells
 
-##Community
+##社区
 Graham Murphy
 Björn Blomberg
 
-##Sales
+##销售
 Daniel Lagergren
 Fang Chen
 
-QA Project Coordinators
+质量保障项目协调人
 Niklas Ivarsson
 Malin Furöstam
 
 
 #Paradox Interactive
 --------
-#Management 
+#管理 
  
-##CEO
+##首席执行官
 Fredrik Wester
 
-##CFO
+##首席财务官
 Andras Vajlok
 
-##COO
+##首席运营官
 Susana Meza Graham
 
-##CPO
+##首席隐私官
 Johan Sjöberg
 
-##CIO 
+##首席信息官 
 John Hargelid
 
-##Manager of Paradox Studio Group
+##Paradox Studio Group 经理
 Mattias Lilja
 
-##VP Products
+##产品副总裁
 Shams Jorjani
 
-##CMO
+##首席营销官
 Daniela Sjunnesson
-Production Team
+生产团队
 
-##Production Manager
+##生产经理
 Jörgen Björklund
 
-##Senior Producers
+##资深制作人
 Andreas Renström
 Florian Schwarzer
 Joe Fricano
 
-##Producers
+##制作人
 Staffan Berglén
 Patrick Berglind
 Kandra Dahlgren
 Robin Cederholm
 
-##Associate Producers
+##制作人助理
 Angelica Uhlan
 Peter Cornelius
 Niklas Lundström
 
 
-#Games User Research Team
+#游戏用户研究团队
 --------
-##User Research Manager
+##用户研究经理
 Karl Leino
 
-##User Researcher
+##用户研究
 Tobias Viklund
 Jean-Luc Potte
 Henrik Edlund
 Johan Dorell
 
-##Associate User Researcher
+##用户研究助理
 Anna Ström
 
-#QA Team 
+#质量保障团队 
 
-##Senior QA Manager
+##资深质量保障经理
 Artur Foxander
 
-##QA Manager
+##质量保障经理
 Loke Norman
 
-##QA Specialists
+##质量保障专家
 Felix Gladitz
 Niklas Ivarsson
 Andrei Zainea
 
-##QA Testers
+##质量保障测试
 Pontus Anehäll
 Emil Andersson
 Bengin Bayrak
@@ -2547,128 +2752,128 @@ Kimberly Stinson
 Daniel Teige
 
 
-#Brand Management Team
+#品牌管理团队
 --------
-##Brand Managers
+##品牌经理
 Marco Behrmann
 Stefan Eld
 Tomas Härenstam
 Jakob Munthe
 
-##Process Manager
+##流程经理
 Martin Park
 
-##Acquisition Associate
+##助理获取
 Nils Brolin
 
-#Marketing & Sales
+#营销 & 销售
 
-##Chief Marketing Officer
+##首席营销官
 Daniela Sjunnesson
 
-##VP of Marketing
+##营销副总裁
 Petra Takeva
 
-##Creative Director of Marketing 
+##营销创意总监 
 Steven K Wells
 
-##Trailer & Video Producer
+##预告片 & 视频制作人
 Marcus Herbertsson
 
-##Streaming Producer
+##流式制作人
 Anders Carlsson
  
-##Event Production Manager
+##活动组织经理
 Veronica Gunlycke
  
-##Senior Community Manager
+##资深社区经理
 Malin Söderberg
 
-##Community Developer
+##社区开发者
 Zeke Lugmair
 
-##Forum And Support Manager
+##论坛与支持经理
 Christian Arvidsson
  
-##Online Marketing Manager
+##线上营销经理
 Mats Wall
 
-##Front End Developer
+##前端开发者
 Alberto Blázquez
 
-##Email Marketing Manager
+##邮件营销经理
 Andreas Nyberg
 
-##User Acquisition Manager
+##客户获取经理
 Mi Ahnhem Thomsen
 
-##Graphics Producers 
+##图像制作人 
 Max Collin
 Adam Skarin
 
-##Sales Managers
+##销售经理
 Filip Sirc
 Fang Chen
 
-##Direct Sales Developer 
+##直销开发者 
 Daniel Lagergren
 
 
-#Tech, Analytics & Development
+#技术，分析 & 开发
 --------
-##Technical Director
+##技术总监
 Christian Westman
 
-##Sr Backend developer
+##Sr 后台开发者
 Anders Törlind
 
-##Backend developers
+##后台开发者
 Alexander Altanis
 Mikael Berg
 
-##Web Developer
+##网页开发者
 Johan Li
 
-##Analytics Team
+##分析团队
 Magnus Eriksson
 Niklas Nordansjö
 
-##IT Manager
+##信息技术经理
 Henrik Hjelm
 
-##IT Technician
+##信息技术人员
 Johannes Ek
 Richard Lindkvist
 
 
-#Legal
+#法务
 --------
-##Senior Legal Counsel
+##资深法务咨询
 Juliette Auverny-Bennetot
 
-##Legal Counsel
+##法务咨询
 Andreas Ruthberg-Sällquist
 
-##Paralegal
+##律师助理
 Emilia Oscarsson
 
 
-#Special Thanks
+#特别鸣谢
 --------
 Matthijs Hoving 
 
 
-#External Partners
+##外部合作伙伴
 --------
-##Localisation
-Spanish - QLOC
-French - S&H Entertainment Localization
-German - S&H Entertainment Localization
-Polish - QLOC
-Russian - The Most Games
-Brazilian Portuguese - S&H Entertainment Localization
+##本地化
+西班牙语 - QLOC
+法语 - S&H Entertainment Localization
+德语 - S&H Entertainment Localization
+波兰语 - QLOC
+俄语 - The Most Games
+葡萄牙语（拉美） - S&H Entertainment Localization
 
-##Beta Testers
+##Beta 测试员
 Markus Grebe
 Lukasz Damentko
 Magne Skjæran
@@ -2688,16 +2893,16 @@ Isaac Lamb
 Christian Borrelli
 Fabian Schneider
 
-##Voice Recording Studio:
+##录音工作室
 Cineast Dub AB
 
 
 --------
 
 
-Special thanks to all our forum members,
-partners and supporters,
-who are integral to our success.
+特别鸣谢我们的论坛成员，
+合作伙伴和支持者，
+他们对我们的成功至关重要。
 
 
 

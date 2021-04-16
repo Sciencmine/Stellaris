@@ -890,7 +890,7 @@ guiTypes = {
 
 				iconType = {
 					name = "war_goal_icon"
-					position = { x = 23 y = 25 }
+					position = { x = 24 y = 25 }
 					centerPosition = yes
 					spriteType = "GFX_alliance_vote_status"
 					alwaysTransparent = yes
@@ -1035,7 +1035,7 @@ guiTypes = {
 
 				iconType = {
 					name = "war_goal_icon"
-					position = { x = 23 y = 25 }
+					position = { x = 24 y = 25 }
 					centerPosition = yes
 					spriteType = "GFX_alliance_vote_status"
 					alwaysTransparent = yes

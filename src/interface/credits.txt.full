@@ -8,21 +8,16 @@ Henrik Fåhraeus
 
 Daniel Moregård
 
-##Producers
+##Producer
 
 Aziz Faghihinejad
 Daniel Lagergren
 Elin Holmberg
-Olga Shcherbak
 
-##Designers
+##Designer
 
 Markus Veit
 Stephen Muray
-
-##Additional Design
-
-Jesper Blomqvist
 
 ##Technical Leads
 
@@ -33,7 +28,7 @@ Rickard Lagerbäck
 ##Programmers
 
 Anton Södergren
-Filip Kirsek
+Filip Kiršek
 Gustav Palmqvist
 Ilya Nikitin
 Johan Melin
@@ -45,10 +40,7 @@ Ulrika Uddeborg
 
 ##Additional Programming
 
-Daniel Bengtsson
-Marine Baghramyan
 Pierre du Plessis
-Peter Vestman
 
 ##Content Design Leads
 
@@ -61,18 +53,10 @@ Douglas Furén
 Gemma Thomson
 Pierre du Plessis
 
-##Additional Content Design
-
-Byron Aytoun
-
-##UX Designers
+##UX Designer
 
 Doyle Merlin Daigle II
 Valeska Martins
-
-##Additional UX Design
-
-Mikhail Gofman
 
 ##Art Producers
 
@@ -148,19 +132,19 @@ Filippa Gannholm Kirsten
 
 ##QLOC
 
-##QA Team Leader
+## QA Team Leader
 
 Adam Nowicki
 
-##Dedicated testers
+## Dedicated testers
 
-Marek Bombala
+Marek Bombała
 Maciej Gutkowski
 Damian Szokalski
 
 ##QA Testers (additional)
 
-Grzegorz Nowicki
+Grzegorz Nowick
 
 ##Keywords Studios Katowice
 
@@ -197,6 +181,7 @@ Maik "Malthus" Wrba
 Marc Schmelzer
 Matthew Walsh
 Michael De Bona
+Maik "Malthus" Wrba
 Nina Chance
 Sergey Demidov
 
@@ -486,6 +471,7 @@ Maik "Malthus" Wrba
 Marc Schmelzer
 Matthew Walsh
 Michael De Bona
+Maik "Malthus" Wrba
 Nina Chance
 
 ##Product Manager
@@ -2201,6 +2187,225 @@ Djordje Zivanovic
 ##Chief Dad Joke Officer
 
 Rikard The Pun-isher
+
+
+#Stellaris: Utopia Game Team
+--------
+##EVP Creative Direction
+Johan Andersson
+
+##Game Director
+Martin Anward
+
+##Project Leads
+Rikard Åslund
+Jamie Wood
+
+##Designers
+Martin Anward
+Daniel Moregård
+
+##Programmers
+Mehrnaz Amanat Bari
+Daniel Eriksson
+Hampus Liljekvist
+Gustav Palmqvist
+Lysann Schlegel
+
+##Additional Programming
+Rikard Åslund
+Alexander Ivannikov
+
+##Content Designers
+Henrik Eklund
+Drikus Kuiper
+Maximilian Olbers
+Miranda van den Brink
+
+##Localization Manager
+Sara Wendel-Örtqvist
+
+##Art Coordinator
+Pernilla Sparrhult
+
+##Art Director
+Fredrik Toll
+
+##2D Art
+Simon Gunnarsson
+Pontus Olofsson
+
+##3D Art
+Joacim Carlberg
+Helena Kasper
+Johan Lundqvist
+
+##Additional Art
+Kentaro Kanamoto
+Room 8 Studio
+
+##Animation & Effects
+Niklas Tammpere
+
+##QA Managers
+Filippa Gannholm
+Felix Gladitz
+
+##Embedded QA
+Aziz Faghihinejad
+Markus Veit
+Leo Larsson
+Peter Skager
+
+##Community QA
+Carsten 't Mannetje
+
+##QA Testers
+Niall Bird
+Sebastian Borg
+Markus Grebe
+Katya Magnusson
+Daniel Moore
+Jesper Norberg
+Daniel Sjöberg
+Emil Tisander
+Albin Wallin
+
+##Audio Director
+Björn Iversen
+
+##Composer
+Andreas Waldetoft
+
+##Additional Sound Design
+David Schlein-Andersen
+
+## Beta Testers
+George Bancroft
+Lukasz Delra
+Mikael Hagman
+Paul Howell
+Rajeev D. Majumdar
+Anton Panas
+Dylan Skoda
+Francesco Teruzzi
+Matthew Walsh
+Djordje Zivanovic
+
+
+# Stellaris: Leviathans / Horizon Signal Game Team
+--------
+##EVP Creative Direction
+Johan Andersson
+
+##Game Director
+Martin Anward
+
+##Project Lead
+Rikard Åslund
+
+##Designers
+Martin Anward
+Daniel Moregård
+
+##Additional Design
+Henrik Fåhraeus
+
+##Guest Writer
+Alexis Kennedy (Horizon Signal)
+
+##Programmers
+Daniel Eriksson
+Alexander Ivannikov
+Mehrnaz Amanat Bari
+Joakim Bennedich
+Hampus Liljekvist
+
+##Content Designers
+Maximilian Olbers
+Niclas Karlsson
+Rufus Tronde
+Henrik Eklund
+Miranda van den Brink
+
+##Localization Manager
+Sara Wendel-Örtqvist
+
+##Usermod Coordinators
+Joel Hansson
+Niklas Strid
+
+##Art Coordinator
+Pernilla Sparrhult
+
+##Art Director
+Fredrik Toll
+
+##Artists 2D
+Simon Gunnarsson
+Jonas Jakobsson
+Frida Eriksson
+
+##Artists 3D
+Helena Kasper
+Joacim Carlberg
+Johan Lundqvist
+
+##Animation & Effects
+Niklas Tammpere
+
+##Concept Artist
+Ylva Ljungqvist
+
+##QA Manager
+Mario Lasan
+
+##Embedded QA
+Aziz Faghihinejad
+Leo Larsson
+
+##Community QA
+Carsten 't Mannetje
+
+##QA Testers
+Albin Wallin
+Arthur Bialecki
+Carmille Gidfors
+Daniel Sjöberg
+Jesper Norberg
+Malin Jakobsson
+Markus Grebe
+Olga Koter
+Patric Lindbergh
+Peter Skager
+Sebastian Borg
+
+##Audio Director
+Björn Iversen
+
+##Composer
+Andreas Waldetoft
+
+##Additional Sound Design
+David Schlein-Andersen
+
+## Beta Testers
+Mark Charters
+Lukasz Damentko
+Dylan Anthony Skoda
+Cathrine Zangerl
+Michael Aaron Hoselton
+Jeroen Elfrink
+Christopher Kenneth O'Keefe
+Kamil Kowalczyk
+Erik Brian Olmstead
+Them Bo Bojesen Jensen
+Peter Deadman
+Richard Williams
+David Lockwood
+Edward Earl Chaney II
+Pablo Agustín Eralio
+Mitchell Alexander Cumming
 
 
 #Paradox Stellaris Game Team

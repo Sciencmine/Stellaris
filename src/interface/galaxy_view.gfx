@@ -140,6 +140,27 @@ spriteTypes = {
 		name = "GFX_envoy_action_improving_cohesion"
 		texturefile = "gfx/interface/icons/diplomacy/envoy_action_improving_cohesion.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_envoy_action_build_spy_network"
+		texturefile = "gfx/interface/icons/diplomacy/envoy_action_improving_cohesion.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_envoy_action_strengthen_imperial_authority"
+		texturefile = "gfx/interface/galacticCommunity/strengthen_imperial_authority_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_envoy_action_undermine_imperial_authority"
+		texturefile = "gfx/interface/galacticCommunity/undermine_imperial_authority_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_envoy_action_first_contact"
+		texturefile = "gfx/interface/icons/situation_log/situation_log_radar.dds" #todo: awaiting a smaller version
+	}
 
 	spriteType = {
 		name = "GFX_diplomacy_status_casus_belli_holder"
@@ -202,6 +223,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_diplomacy_status_galactic_empire"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_galactic_empire.dds"
+	}
+
+	spriteType = {
 		name = "GFX_diplomacy_status_migration_pact"
 		texturefile = "gfx/interface/icons/diplomacy/diplomacy_migration_pact.dds"
 	}
@@ -228,6 +254,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_diplomacy_status_favor_taget"
 		texturefile = "gfx/interface/icons/diplomacy/diplomatic_favor_target_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_diplomacy_status_join_galactic_empire"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_join_galactic_empire.dds"
 	}
 
 
@@ -323,4 +354,35 @@ spriteTypes = {
 		name = "GFX_envoy_icon"
 		texturefile = "gfx/interface/icons/diplomacy/diplomacy_envoy.dds"
 	}
+
+	spriteType = {
+		name = "GFX_diplomacy_status_add_imperial_council_member"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_add_to_imperial_council.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_diplomacy_status_remove_imperial_council_member"
+		texturefile = "gfx/interface/icons/diplomacy/diplomacy_remove_from_imperial_council.dds"
+	}	
+
+	## Portrait small frames
+	## VM: we need to make one dds for each frame (curators, artists, etc)
+	spriteType = {
+		name = "GFX_contacts_portrait_frame"
+   		textureFile = "gfx/interface/contacts/contacts_frame.dds"
+   	}
+
+	## Intel frame
+   	spriteType = {
+		name = "GFX_darkcut_intel"
+   		textureFile = "gfx/interface/contacts/darkcut_intel.dds"
+   	}
+   	portraitType = {
+		name = "GFX_contacts_portrait_character_masked"
+		masking_texture = "gfx/interface/contacts/Contacts_Background_Mask.dds"
+		texturefile = "gfx/interface/main/unselected_portrait.dds"
+		effectFile = "gfx/FX/buttonstate_rendertarget.lua"
+		type = character
+		character = yes
+	}	
 }

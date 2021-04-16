@@ -81,7 +81,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_army_icons"
 		textureFile = "gfx/interface/planetview/army_icon.dds"
-		noOfFrames = 13
+		noOfFrames = 14
 	}
 
 	spriteType = {
@@ -365,7 +365,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_class_small"
 		textureFile = "gfx/interface/icons/ship_classes.dds"
-		noOfFrames = 35
+		noOfFrames = 39
 	}
 
 	spriteType = {
@@ -389,7 +389,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ship_class_medium"
 		textureFile = "gfx/interface/icons/ship_classes_medium.dds"
-		noOfFrames = 35
+		noOfFrames = 39
 	}
 
 	spriteType = {
@@ -501,6 +501,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/message/message_archeology_discovered.dds"
 	}
 
+	spriteType = {
+		name = "GFX_message_first_contact_discovered"
+		texturefile = "gfx/interface/icons/message/message_first_contact_discovered.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_first_contact_finished"
+		texturefile = "gfx/interface/icons/message/message_first_contact_finished.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_unknown"
+		texturefile = "gfx/interface/icons/message/message_unknown.dds"
+	}
+
 	#spriteType = {
 	#	name = "GFX_message_diplomatic_war"
 	#	texturefile = "gfx/interface/icons/message/message_diplomatic_war.dds"
@@ -511,6 +526,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/message/message_planet_destroyed.dds"
 	}
 
+	spriteType = {
+		name = "GFX_message_necrophage"
+		texturefile = "gfx/interface/icons/message/message_necrophage.dds"
+	}
 
 	spriteType = {
 		name = "GFX_message_diplomatic_trade"
@@ -631,6 +650,15 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_message_associate"
 		texturefile = "gfx/interface/icons/message/message_embassy.dds"
+	}
+	## 
+	spriteType = {
+		name = "GFX_message_embassy"
+		texturefile = "gfx/interface/icons/message/message_embassy.dds"
+	}
+	spriteType = {
+		name = "GFX_message_recall_embassy"
+		texturefile = "gfx/interface/icons/message/message_recall_embassy.dds"
 	}
 	spriteType = {
 		name = "GFX_message_rivalry"
@@ -939,6 +967,26 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_senate_session_can_be_ended"
+		texturefile = "gfx/interface/icons/message/message_senate_session_can_be_ended.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_resolution_frozen"
+		texturefile = "gfx/interface/icons/message/message_resolution_frozen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_senate_session_ended_prematurely"
+		texturefile = "gfx/interface/icons/message/message_senate_session_ended_prematurely.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_custodian_term_limit_expiring"
+		texturefile = "gfx/interface/icons/message/message_custodian_term_limit_expiring.dds"
+	}
+
+	spriteType = {
 		name = "GFX_message_senate_in_session"
 		texturefile = "gfx/interface/icons/message/message_senate_in_session.dds"
 	}
@@ -973,6 +1021,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/message/message_laws_failed.dds"
 	}
 
+	spriteType = {
+		name = "GFX_message_left_galactic_community"
+		texturefile = "gfx/interface/icons/message/message_left_galactic_community.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_joined_galactic_community"
+		texturefile = "gfx/interface/icons/message/message_joined_galactic_community.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_left_galactic_empire"
+		texturefile = "gfx/interface/icons/message/message_left_galactic_empire.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_joined_galactic_empire"
+		texturefile = "gfx/interface/icons/message/message_joined_galactic_empire.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_expand_icon"
 		texturefile = "gfx/interface/icons/expand_icon.dds"
@@ -2568,6 +2636,220 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/galactic_focus/galactic_focus_war_in_heaven.dds"
 	}
 
+	### Custodianship ###
+
+	spriteType = {
+		name = "GFX_resolution_nominate_custodian"
+		texturefile = "gfx/interface/icons/resolutions/resolution_nominate_custodian.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_term_limits"
+		texturefile = "gfx/interface/icons/resolutions/resolution_term_limits.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_form_galactic_empire"
+		texturefile = "gfx/interface/icons/resolutions/resolution_form_galactic_empire.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_galactic_defense_force"
+		texturefile = "gfx/interface/icons/resolutions/resolution_galactic_defense_force.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_expand_gdf"
+		texturefile = "gfx/interface/icons/resolutions/resolution_expand_gdf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_disband_gdf"
+		texturefile = "gfx/interface/icons/resolutions/resolution_disband_gdf.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_united_front"
+		texturefile = "gfx/interface/icons/resolutions/resolution_united_front.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_galactic_mobilization"
+		texturefile = "gfx/interface/icons/resolutions/resolution_galactic_mobilization.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_galactic_standard"
+		texturefile = "gfx/interface/icons/resolutions/resolution_galactic_standard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_form_ina"
+		texturefile = "gfx/interface/icons/resolutions/resolution_form_ina.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_disband_ina"
+		texturefile = "gfx/interface/icons/resolutions/resolution_disband_ina.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_form_gto"
+		texturefile = "gfx/interface/icons/resolutions/resolution_form_gto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_disband_gto"
+		texturefile = "gfx/interface/icons/resolutions/resolution_disband_gto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_form_galpol"
+		texturefile = "gfx/interface/icons/resolutions/resolution_form_galpol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_disband_galpol"
+		texturefile = "gfx/interface/icons/resolutions/resolution_disband_galpol.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_anti_piracy_initiative"
+		texturefile = "gfx/interface/icons/resolutions/resolution_anti_piracy_initiative.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_declare_crisis"
+		texturefile = "gfx/interface/icons/resolutions/resolution_declare_crisis.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_end_custodianship"
+		texturefile = "gfx/interface/icons/resolutions/resolution_end_custodianship.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_custodian_reforms"
+		texturefile = "gfx/interface/icons/resolutions/resolution_custodian_reforms.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_galactic_institutions"
+		texturefile = "gfx/interface/icons/resolutions/resolution_galactic_institutions.dds"
+	}
+
+	### Galactic Empire ###
+
+	spriteType = {
+		name = "GFX_resolution_imperial_council"
+		texturefile = "gfx/interface/icons/resolutions/resolution_create_imperial_council.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_abolish_imperial_council"
+		texturefile = "gfx/interface/icons/resolutions/resolution_abolish_imperial_council.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_council_size"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_council_size.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_council_member_permanent"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_council_member_permanent.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_council_trial"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_council_trial.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_council_appointment"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_council_appointment.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_council_diplomatic_weight"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_council_diplomatic_weight.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_foreign_relations"
+		texturefile = "gfx/interface/icons/resolutions/resolution_foreign_relations.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_institutions"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_institutions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_reforms"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_reforms.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_pax_galactica"
+		texturefile = "gfx/interface/icons/resolutions/resolution_pax_galactica.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_repeal_pax_galactica"
+		texturefile = "gfx/interface/icons/resolutions/resolution_repeal_pax_galactica.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_crusade"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_crusade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_armada"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_armada.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_expand_armada"
+		texturefile = "gfx/interface/icons/resolutions/resolution_expand_armada.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_disband_armada"
+		texturefile = "gfx/interface/icons/resolutions/resolution_disband_armada.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_legions"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_legions.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_security_directorate"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_security_directorate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resolution_imperial_trade_company"
+		texturefile = "gfx/interface/icons/resolutions/resolution_imperial_trade_company.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_add_to_imperial_council"
+		texturefile = "gfx/interface/icons/message/message_add_to_imperial_council.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_remove_from_imperial_council"
+		texturefile = "gfx/interface/icons/message/message_remove_from_imperial_council.dds"
+	}
+
+	spriteType = {
+		name = "GFX_message_star_destroyed"
+		texturefile = "gfx/interface/icons/message/message_star_destroyed.dds"
+	}
+
 
 	### Universal ###
 
@@ -2579,13 +2861,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_minus_29"
 		texturefile = "gfx/interface/icons/minus_29.dds"
-	}
-
-	### Temp ###
-
-	spriteType = {
-		name = "GFX_federation_temp"
-		texturefile = "gfx/interface/icons/federation/temp_federation.dds"
-		noOfFrames = 1
 	}
 }

@@ -120,6 +120,31 @@ spriteTypes = {
 		textureFile = "gfx/interface/icons/resources/minor_artifacts.dds"
 	}
 
+	spriteType = {
+		name = "GFX_resource_menace"
+		texturefile = "gfx/interface/icons/resources/menace.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resource_spy_network"
+		texturefile = "gfx/interface/icons/resources/spy_network.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resource_spy_power"
+		texturefile = "gfx/interface/icons/resources/spy_power.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resource_intel_decryption"
+		texturefile = "gfx/interface/icons/resources/intel_decryption.dds"
+	}
+
+	spriteType = {
+		name = "GFX_resource_intel_encryption"
+		texturefile = "gfx/interface/icons/resources/intel_encryption.dds"
+	}
+
 	# LARGE ICONS
 	spriteType = {
 		name = "GFX_resource_food_large"
@@ -163,12 +188,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_resource_sr_living_metal_large"
-		textureFile = "gfx/interface/icons/resources/sr_living_metal.dds"
+		textureFile = "gfx/interface/icons/resources/sr_living_metal_large.dds"
 	}
 
 	spriteType = {
 		name = "GFX_resource_sr_zro_large"
-		textureFile = "gfx/interface/icons/resources/sr_zro.dds"
+		textureFile = "gfx/interface/icons/resources/sr_zro_large.dds"
 	}
 
 	spriteType = {

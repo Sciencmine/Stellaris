@@ -140,7 +140,7 @@ guiTypes = {
 			gridBoxType = {
 				name = "traits"
 				slotSize = { width = 42 height = 45 }
-				max_slots_horizontal = 6
+				max_slots_horizontal = 9
 				format = "UPPER_LEFT"
 			}
 		}

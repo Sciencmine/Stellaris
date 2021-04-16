@@ -57,6 +57,13 @@ guiTypes = {
 			quadTextureSprite = "GFX_topbar_background_cutoff"
 			position = { x= 0 y = 0 }
 		}
+			
+		iconType = {
+			name = "music_commands_icon"
+			spriteType = "GFX_music_commands_icon"
+			position = { x = 33 y = 0 }
+			alwaysTransparent = yes
+		}
 
 		containerWindowType = {
 			name = "topbar_bar_res"
@@ -86,16 +93,11 @@ guiTypes = {
 				position = { x = -10 y = 6 }
 
 					background = {
-						name = "topbar_bar_03"
-						spriteType = "GFX_topbar_bar_03"
+						name = "green_vertical_delimiters"
+						spriteType = "GFX_green_vertical_delimiters"
 						alwaysTransparent = yes
 					}
 			}
-
-			#background = {
-			#	name = "Background"
-			#	quadTextureSprite ="GFX_tiles_frame_light"
-			#}
 
 			buttonType = {
 				name = "music_pause_button"
@@ -1082,6 +1084,82 @@ guiTypes = {
 			position = { x = 34 y = 50 }
 			slotSize = { width = 54 height = 40 }
 			max_slots_horizontal = 1
+		}
+	}
+
+	containerWindowType = {
+		name = "debug_stats"
+		position = { x=10 y=720 }
+		size = { width= 400 height = 250 }
+
+		moveable = no
+		clipping = yes
+
+		background = {
+			name = "background"
+			quadTextureSprite = "GFX_tile_outliner_bg"
+		}
+
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 22 y = 5 }
+			orientation = "UPPER_LEFT"
+			text = "Jeff's Debug Stats"
+			font = "malgun_goth_24"
+			maxWidth = 400
+			maxHeight = 100
+			fixedSize = yes
+			alwaysTransparent = yes
+			text_color_code = "E"
+		}
+
+		iconType = {
+			name = "portrait"
+			quadTextureSprite = "GFX_portrait_character"
+			position = { x = -75 y = 40 }
+			scale = 0.5
+			alwaysTransparent = yes
+		}
+
+		instantTextBoxType={
+			name = "avg_frame_time"
+			font = "cg_16b"
+			position = { x = 120 y = 60 }
+			maxWidth = 300
+			maxHeight = 16
+			text = "aaaaaaaah!"
+		}
+
+		instantTextBoxType={
+			name = "avg_micro_tick"
+			font = "cg_16b"
+			position = { x = 120 y = 80 }
+			maxWidth = 300
+			maxHeight = 16
+		}
+
+		instantTextBoxType={
+			name = "last_daily_tick"
+			font = "cg_16b"
+			position = { x = 120 y = 100 }
+			maxWidth = 300
+			maxHeight = 16
+		}
+
+		instantTextBoxType={
+			name = "avg_daily_tick"
+			font = "cg_16b"
+			position = { x = 120 y = 120 }
+			maxWidth = 300
+			maxHeight = 16
+		}
+
+		instantTextBoxType={
+			name = "avg_extra_daily_tick_frames"
+			font = "cg_16b"
+			position = { x = 120 y = 140 }
+			maxWidth = 300
+			maxHeight = 16
 		}
 	}
 }

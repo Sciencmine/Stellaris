@@ -1,7 +1,7 @@
 guiTypes = {
 	# this controls the size of the 3d viewport ui element
 	positionType = {
-		name = "3d_view_size"
+		name = "ship_designer_3d_view_size"
 		position = { x=740 y=635 }
 	}
 
@@ -762,14 +762,14 @@ guiTypes = {
 	containerWindowType = {
 		name = "section_entry"
 		position = { x=0 y=0 }
-		size = { width = 260 height = 275 }
+		size = { width = 278 height = 275 }
 		moveable = no
 
 
 
 		containerWindowType = {
 			name = "section_entry_bg"
-			size = { width = 250 height = 275 }
+			size = { width = 280 height = 275 }
 			position = { x = 0 y = 0 }
 
 				background = {
@@ -783,7 +783,7 @@ guiTypes = {
 			font = "malgun_goth_24"
 			text = ""
 			position = { x= 0 y= 8 }
-			maxWidth = 260
+			maxWidth = 280
 			maxHeight = 30
 			fixedsize = yes
 			format = center
@@ -793,7 +793,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "setting_bg_box22"
 			size = { width = 220 height = 135 }
-			position = { x = 15 y = 35 }
+			position = { x = 30 y = 35 }
 
 				background = {
 					name = "setting_bg_frame22"
@@ -805,14 +805,14 @@ guiTypes = {
 		iconType = {
 			name = "ship_part_bg_area"
 			spriteType = "GFX_ship_part_bg"
-			position = { x = 20 y = 40 }
+			position = { x = 35 y = 40 }
 			alwaysTransparent = yes
 		}
 
 		buttonType = {
 			name = "render_target"
 			quadTextureSprite = "GFX_dummy_3d_section_entry"
-			position = { x = 20 y = 40 }
+			position = { x = 35 y = 40 }
 			size = { x = 210 y = 125 }
 		}
 
@@ -820,7 +820,7 @@ guiTypes = {
 			name = "weapons_label"
 			font = "cg_16b"
 			text = "SECTION_ENTRY_WEAPON_SLOTS"
-			position = { x= 0 y= 175 }
+			position = { x= 10 y= 175 }
 			maxWidth = 260
 			maxHeight = 30
 			fixedsize = yes
@@ -829,7 +829,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "weapon_slots"
-			position = { x = 5 y = 193 }
+			position = { x = 15 y = 193 }
 			size = { x = 260 y = 30 }
 			spacing = 0.0
 			format = center
@@ -839,7 +839,7 @@ guiTypes = {
 			name = "utility_label"
 			font = "cg_16b"
 			text = "SECTION_ENTRY_UTILITY_SLOTS"
-			position = { x= 0 y= 222 }
+			position = { x= 10 y= 222 }
 			maxWidth = 260
 			maxHeight = 30
 			fixedsize = yes
@@ -848,7 +848,7 @@ guiTypes = {
 		
 		OverlappingElementsBoxType = {
 			name = "utility_slots"
-			position = { x = 5 y = 240 }
+			position = { x = 15 y = 240 }
 			size = { x = 260 y = 30 }
 			spacing = 0.0
 			format = center
@@ -1316,7 +1316,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "section_select_window"
 		position = { x = 353 y = 80 }
-		size = { width = 528 height = 630 }
+		size = { width = 583 height = 630 }
 		moveable = yes
 	#	Orientation = "CENTER_UP"
 
@@ -1356,7 +1356,7 @@ guiTypes = {
 		smoothListBoxType = {
 			name = "list"
 			position = { x = 12 y = 53 }
-			size = { x = 500 y = 560 }
+			size = { x = 555 y = 560 }
 			scrollbartype = "standardlistbox_slider"
 		}
 

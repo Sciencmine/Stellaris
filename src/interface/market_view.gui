@@ -367,7 +367,7 @@ guiTypes = {
 					position = { x = 40 y = 30 }
 					format = center
 					maxWidth = 228
-					maxHeight = 60
+					maxHeight = 80
 					fixedSize = yes
 				}
 

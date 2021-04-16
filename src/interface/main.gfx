@@ -265,6 +265,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
 
+	corneredTileSpriteType = {
+		name = "GFX_green_vertical_delimiters"
+		texturefile = "gfx/interface/tiles/green_vertical_delimiters.dds"
+		borderSize = { x=10 y=10 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
 	spriteType = {
 		name = "GFX_bottombar_details"
 		texturefile = "gfx/interface/main/bottombar_details.dds"
@@ -947,7 +954,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/icons/map_mode_trade_routes.dds"
 		noOfFrames = 2
 	}
-	
+
+	spriteType = {
+		name = "GFX_map_mode_intel"
+		texturefile = "gfx/interface/icons/map_mode_intel.dds"
+		noOfFrames = 2
+	}
+
 	spriteType = {
 		name = "GFX_map_mode_unions"
 		texturefile = "gfx/interface/icons/map_mode_unions.dds"
